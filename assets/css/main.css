@@ -193,6 +193,24 @@ aside {
     text-align: justify;
 }
 
+.aside-about {
+   
+    margin: 5px 10px 5px 10px;
+    background-color: rgb(230, 217, 227);
+    padding-right: 10px;
+    text-align: start;
+    padding-top: 5px;
+    padding-bottom: 7px;
+   
+}
+
+.right-aside-about {
+    width: 60%;
+}
+.left-section-about {
+    width: 30%;
+}
+
 .blog-left {
     width: 90%;
     height: auto;
@@ -203,6 +221,13 @@ aside {
 
 .list-left {
     padding-left: 125px;
+    padding-right: 5px;
+    text-align: left;
+    
+}
+
+.list-left-about {
+    padding-left: 25px;
     padding-right: 5px;
     text-align: left;
     
@@ -423,6 +448,13 @@ footer {
         width: 100%;
     }
 
+    .right-aside-about {
+        width: 100%;
+    }
+    .left-section-about {
+        width: 100%;
+    }
+
     .academic_calendar {
         margin: 10px auto;
         width: 80%;
@@ -491,6 +523,13 @@ footer {
         width: 70%;
     }
 
+    .right-aside-about {
+        width: 100%;
+    }
+    .left-section-about {
+        width: 100%;
+    }
+
     .sub_page_content {
         padding-left: 30px;
         padding-right: 30px;
@@ -512,6 +551,12 @@ footer {
 
     .news-section {
         flex-direction: column;
+    }
+    .right-aside-about {
+        width: 100%;
+    }
+    .left-section-about {
+        width: 100%;
     }
 
     .news-blog-image {

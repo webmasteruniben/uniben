@@ -22,6 +22,15 @@ let news = [
         linktitle: "Click to Read More"
     },
     {
+        title: "Transcripts",
+        type: "NEWS",
+        content: "Our esteemed students can now apply for transripts on the student portal.",
+        image: "./assets/img/news/Transcripts.jpg",
+        alt: "Transcripts Application",
+        link: "https://uniben.waeup.org/applicants/checktranscript",
+        linktitle: "Click to Apply"
+    },
+    {
         title: "46th Matriculation Ceremony",
         type: "NEWS",
         content: "Students' Matriculation Ceremony in the University of Benin.",
