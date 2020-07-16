@@ -4,6 +4,15 @@ const section = document.querySelector('.section-list')
 
 let news = [
     {
+        title: "Transcripts",
+        type: "NEWS",
+        content: "Our esteemed students can now apply for transripts on the student portal.",
+        image: "./assets/img/news/Transcripts.jpg",
+        alt: "Transcripts Application",
+        link: "https://uniben.waeup.org/applicants/checktranscript",
+        linktitle: "Click to Apply"
+    },
+    {
         title: "Pope Francis Appoints UNIBEN Professor",
         type: "NEWS",
         content: "Pope Francis appoints UNIBEN Professor, Kokunre Agbontaen-Eghafona, to the prestigious Pontifical Academy of Social Sciences.",
@@ -20,15 +29,6 @@ let news = [
         alt: "First Virtual Training Workshop",
         link: "https://news.uniben.edu/index.php/2020/07/11/first-virtual-training-workshop/",
         linktitle: "Click to Read More"
-    },
-    {
-        title: "Transcripts",
-        type: "NEWS",
-        content: "Our esteemed students can now apply for transripts on the student portal.",
-        image: "./assets/img/news/Transcripts.jpg",
-        alt: "Transcripts Application",
-        link: "https://uniben.waeup.org/applicants/checktranscript",
-        linktitle: "Click to Apply"
     },
     {
         title: "46th Matriculation Ceremony",
