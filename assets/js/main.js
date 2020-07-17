@@ -29,6 +29,12 @@ let searchitems = [
         href: "schoolfees.html",
         content: "School Fees",
         
+    },
+    {
+        title: "transcripts",
+        href: "https://uniben.waeup.org/applicants/checktranscript",
+        content: "Transcripts",
+        
     }
 ]
 
