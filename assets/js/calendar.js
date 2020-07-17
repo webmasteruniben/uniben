@@ -4,29 +4,29 @@ const calendar_list = document.querySelector('.academic_calendar_list')
 
 let calendar = [
     {
-        date: "25/03/2020",
-        content: "Students resume academic actvities"
+        date: "07/01/2020",
+        content: "Clearance begin for new students"
        
     },
     {
-        date: "02/04/2020",
-        content: "Students begin First Semester Examinations."
+        date: "19/01/2020",
+        content: "Old students come into residence for 2019/2020 Academic Session"
     },
     {
-        date: "25/03/2020",
-        content: "Students resume academic actvities"
+        date: "20/01/2020",
+        content: "Lectures begin for all students 1st Semester of  2019/2020 Academic Session"
     },
     {
-        date: "02/04/2020",
-        content: "Students begin First Semester Examinations."
+        date: "20/02/2020",
+        content: "Students go on mid-semester break"
     },
     {
-        date: "25/03/2020",
-        content: "Students resume academic actvities"
+        date: "12/04/2020",
+        content: "Students return to campus from mid-semester break to continue Academic activities"
     },
     {
-        date: "02/04/2020",
-        content: "Students begin First Semester Examinations."
+        date: "03/05/2020",
+        content: "Deadline for registration and payment of school charges for 2019/2020 Academic"
     }
 ]
 
