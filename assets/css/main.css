@@ -180,6 +180,7 @@ article {
 
 aside {
     text-align: top;
+    width: 40%;
 }
 
 .aside {
@@ -438,6 +439,10 @@ footer {
         background-color: #C6C1C5;
         display: block;
         
+    }
+
+    aside {
+        width: 100%;
     }
     
     section {
