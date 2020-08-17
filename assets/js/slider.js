@@ -15,6 +15,14 @@ let projects = [
         linktitle: "Click to Read More"
     },
     {
+        title: "2020/2021 ADMISSION SCREENING EXERCISE",
+        type: "Application",
+        content: "Apply Now to study at UNIBEN",
+        image: "./assets/images/slider/matriculating students.JPG",
+        link: "https://news.uniben.edu/index.php/2020/08/17/2020-2021-admission-screening-exercise/",
+        linktitle: "Click Here to Read More"
+    },
+    {
         title: "The First of Many to Come",
         type: "Ongoing Major Projects",
         content: "TETFUND COMMENCES CONSTRUCTION OF 28-EXECUTIVE-ROOM INTERNATIONAL HOSTEL",
@@ -31,7 +39,7 @@ let projects = [
         linktitle: "Click to Read More"
     },
     {
-        title: "2019 Conocation",
+        title: "2019/2020 Convocation",
         type: "Graduating Students",
         content: "Our students are preprared to serve humanity",
         image: "./assets/images/slider/3.jpg",

@@ -4,6 +4,15 @@ const section = document.querySelector('.section-list')
 
 let news = [
     {
+        title: "2020/2021 ADMISSION SCREENING EXERCISE",
+        type: "NEWS",
+        content: "The  University  of  Benin  (UNIBEN)  Admission  Screening  Exercise  (Post  UTME)  for  2020/2021 Academic Session will take place between Monday, 23rd November, 2020 and  Tuesday,  8th  December,  2020.",
+        image: "./assets/img/news/matric.JPG",
+        alt: "ADMISSION SCREENING EXERCISE",
+        link: "https://uniben.waeup.org/applicants/ase2020/index",
+        linktitle: "Click Here to Apply"
+    },
+    {
         title: "Transcripts",
         type: "NEWS",
         content: "Our esteemed students can now apply for transripts on the student portal.",
