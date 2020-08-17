@@ -4,9 +4,12 @@ const calendar_list = document.querySelector('.academic_calendar_list')
 
 let calendar = [
     {
+        date: "06/01/2020",
+        content: "New students come into residence for 2019/2020 Academic Session"
+    },
+    {
         date: "07/01/2020",
         content: "Clearance begin for new students"
-       
     },
     {
         date: "19/01/2020",
@@ -27,6 +30,47 @@ let calendar = [
     {
         date: "03/05/2020",
         content: "Deadline for registration and payment of school charges for 2019/2020 Academic"
+    },
+    {
+        date: "04/05/2020",
+        content: "Matriculation"
+    },
+    {
+        date: "29/05/2020",
+        content: "End of First semester lectures for 2019/2020 Academic "
+    },
+    {
+        date: "01/06/2020 – 05/06/2020",
+        content: "Revision (one week)"
+    },
+    {
+        date: "06/06/2020",
+        content: "Examinations begin in Faculties Education/Pharmacy/Engineering/Life Sciences/Physical Sciences/Environmental Sciences"
+    },
+    {
+        date: "10/06/2020",
+        content: "CED Examination"
+    },
+    {
+        date: "03/05/2020",
+        content: "Deadline for registration and payment of school charges for 2019/2020 Academic"
+    },
+    {
+        date: "11/06/2020 – 24/06/2020",
+        content: "Other Faculties Examinations begin (Two weeks)"
+    },
+    {
+        date: "25/06/2020 – 30/06/2020",
+        content: "General Studies Examinations (CBT)"
+    },
+    {
+        date: "01/07/2020 – 14/07/2020",
+        content: "Students go down for first semester break (Two weeks break)"
+    }
+    ,
+    {
+        date: "",
+        content: "<b>SECOND SEMESTER 2019/2020 ACADEMIC SESSION</b>"
     }
 ]
 
