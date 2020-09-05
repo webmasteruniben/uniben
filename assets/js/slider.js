@@ -9,8 +9,8 @@ let projects = [
     {
         title: "Welcome",
         type: "University of Benin",
-        content: "Knowledge for Service",
-        image: "./assets/images/slider/1.jpg",
+        content: "Welcome to The University of Benin",
+        image: "./assets/images/slider/UNIBEN_NEW_LOOK.jpeg",
         link: "#",
         linktitle: "Click to Read More"
     },
