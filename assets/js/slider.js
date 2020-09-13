@@ -15,6 +15,14 @@ let projects = [
         linktitle: "Click to Read More"
     },
     {
+        title: "2019/2020 VIRTUAL MATRICULATION CEREMONY",
+        type: "Matriculation Ceremony",
+        content: "The matriculation ceremony for 2019/2020 session will hold virtually. Date: Tuesday 15, 2020. Time: 10:00 AM",
+        image: "./assets/images/slider/matric_virtual_slider.jpg",
+        link: "https://news.uniben.edu/index.php/2020/09/12/watch-live2019-2020-virtual-matriculation-ceremony/",
+        linktitle: "Click Here to Link Up"
+    },
+    {
         title: "2020/2021 ADMISSION SCREENING EXERCISE",
         type: "Application",
         content: "Apply Now to study at UNIBEN",
