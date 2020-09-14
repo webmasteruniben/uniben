@@ -49,6 +49,10 @@ header {
    
 }
 
+.secondary-menu-link-slider{
+    border-radius: 5px;
+}
+
 .secondary-menu-link:hover {
 
     background-color: #9C0C84;
