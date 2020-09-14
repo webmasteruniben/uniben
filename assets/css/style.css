@@ -1177,9 +1177,7 @@ article.last-post .content a {
 	color:#fff;
 	font-weight:bold;
 }
-article.last-post h4 {
 
-}
 
 article.last-post iframe{
 	width:100%;
@@ -1746,9 +1744,9 @@ ul.nav-tabs { margin: 0 !important; border: none; }
   -o-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
 }
-.breadcrumb > li {
+/*.breadcrumb > li {
 
-}
+}*/
 
 .breadcrumb.custom {
   padding: 8px 0px;
