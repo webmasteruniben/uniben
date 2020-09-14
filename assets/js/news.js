@@ -58,15 +58,6 @@ let news = [
         linktitle: "Click to Read More"
     },
     {
-        title: "46th Matriculation Ceremony",
-        type: "NEWS",
-        content: "Students' Matriculation Ceremony in the University of Benin.",
-        image: "./assets/img/news/news_image.jpg",
-        alt: "46th Matriculation Ceremony",
-        link: "#",
-        linktitle: "Click to Read More"
-    },
-    {
         title: "234th Inaugural Lecture",
         type: "VIDEOS",
         content: "234 Inaugural Lecture of the University of Benin. Watch live by clicking here.",
