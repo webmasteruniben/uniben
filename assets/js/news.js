@@ -6,11 +6,11 @@ let news = [
     {
         title: "UNIBEN 2019/2020 VIRTUAL MATRICULATION CEREMONY",
         type: "NEWS",
-        content: "The matriculation ceremony for 2019/2020 session will hold virtually. Date: Tuesday 15, 2020. Time: 10:00 AM",
+        content: "Watch The matriculation ceremony for 2019/2020.",
         image: "./assets/img/news/uniben_virtual_matric.JPG",
         alt: "2019/2020 VIRTUAL MATRICULATION CEREMONY",
         link: "https://news.uniben.edu/index.php/2020/09/12/watch-live2019-2020-virtual-matriculation-ceremony/",
-        linktitle: "Click Here to Link Up"
+        linktitle: "Click Here to watch"
     },
     {
         title: "UNIBEN CBT Practice Test 2020/2021",
