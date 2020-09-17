@@ -1,7 +1,7 @@
 <?php
 $id = $_GET['button'];
 //connecting to our database.
-$link = @mysqli_connect("localhost", "root", "", "contact");
+$link = @mysqli_connect("localhost:3306", "root", "Pa55w0rd@1", "admin_uniben_contact");
 
 //checking connection
 if(mysqli_connect_errno() > 0){

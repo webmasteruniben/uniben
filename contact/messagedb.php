@@ -36,7 +36,7 @@
                 <h1>Message Database</h1>
             <?php
             //connect to our database.
-            $link = @mysqli_connect("localhost", "root", "", "contact");
+            $link = @mysqli_connect("localhost:3306", "root", "Pa55w0rd@1", "admin_uniben_contact");
 
             //checking connection
             if(mysqli_connect_errno() > 0){
@@ -63,9 +63,9 @@
                     while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){
                    echo "<tr>";
                    echo "<td>" . $row["id"] . "</td>";
-                   echo "<td>" . $row["names"] . "</td>";
+                   echo "<td>" . $row["name"] . "</td>";
                    echo "<td>" . $row["email"] . "</td>";
-                   echo "<td>" . $row["messages"] . "</td>";
+                   echo "<td>" . $row["message"] . "</td>";
                    echo "<td>" . $row["date"] . "</td>";
                    echo "<td> <a href='delete.php?button=" . $row["id"] . "'><button type='button' class='btn btn-danger'>Delete</button></a> </td>";
                    echo "<tr>";

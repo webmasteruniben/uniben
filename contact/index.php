@@ -69,12 +69,16 @@
             color: #fff;
             border-radius: 4px;
             background-color: #91048C;
-            border: 2px solid #500650;
+            border: 2px solid #91048C;
             margin-bottom: 8px;
             transition: all 0.3s ease;
         }
         .btn:hover{
-            background-color: #4bb543; 
+            border: 2px solid #500650;
+            color: #efff56;
+            font-size: 18px;
+            cursor: pointer;
+
         }
         ul {
             list-style-type:none;
