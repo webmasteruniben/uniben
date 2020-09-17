@@ -125,19 +125,20 @@
 <body>
     <div class="page">
         <header>
-            <div id="site-logo">
-                <a href="index.html" title="Uniben Home Page"><img src="assets/img/logo2.png" alt="Uniben Logo" class="site-logo-image" /></a>
+        <div style="text-align: right;padding-top: 18px;">
+                <a href="https://uniben-alumni.waeup.org/applicants/checktranscript" target="_blank" class="secondary-menu-link link-border">Apply for Transcript</a>
+                <a href="#" class="secondary-menu-link link-border">Contact Us</a>
             </div>
             <div id="secondary-menu">
                 <div style="text-align: right;padding-top: 18px;"><a href="https://uniben-alumni.waeup.org/applicants/checktranscript" target="_blank" class="secondary-menu-link link-border">Apply for Transcript</a></div>
                 <ul style="padding-left: 0px;">
 					<li class="secondary-menu-link link-border"><a href="https://mail.google.com" class="secondary-menu-link" target="_blank">Mail</a></li>
-                    <li class="secondary-menu-link link-border"><a href="staff.html" class="secondary-menu-link">Staff</a></li>
-                    <li class="secondary-menu-link link-border"><a href="students.html" class="secondary-menu-link">Students</a></li>
-                    <li class="secondary-menu-link link-border"><a href="visitors.html" class="secondary-menu-link">Visitors</a></li>
-                    <li class="secondary-menu-link link-border"><a href="alumni.html" class="secondary-menu-link">Alumni</a></li>
-                    <li class="secondary-menu-link link-border"><a href="library.html" class="secondary-menu-link">Library</a></li>
-                    <li class="secondary-menu-link link-border"><a href="complaints.html" class="secondary-menu-link">Complaints</a></li>
+                    <li class="secondary-menu-link link-border"><a href="../staff.html" class="secondary-menu-link">Staff</a></li>
+                    <li class="secondary-menu-link link-border"><a href="../students.html" class="secondary-menu-link">Students</a></li>
+                    <li class="secondary-menu-link link-border"><a href="../visitors.html" class="secondary-menu-link">Visitors</a></li>
+                    <li class="secondary-menu-link link-border"><a href="../alumni.html" class="secondary-menu-link">Alumni</a></li>
+                    <li class="secondary-menu-link link-border"><a href="../library.html" class="secondary-menu-link">Library</a></li>
+                    <li class="secondary-menu-link link-border"><a href="../complaints.html" class="secondary-menu-link">Complaints</a></li>
                     <li class="secondary-menu-link link-border">
                         <div class= search-dropbtn>
                             <input type="text" id="search_input" /> 
@@ -155,12 +156,12 @@
         </header>
         <nav class="primary-menu">
             <ul style="padding-left: 0px;">
-                <li><a href="about.html" class="primary-menu-link">ABOUT</a></li>
-                <li><a href="academics.html" class="primary-menu-link">ACADEMICS</a></li>
-                <li><a href="academics.html" class="primary-menu-link">ADMISSIONS</a></li>
-                <li><a href="research.html" class="primary-menu-link">RESEARCH</a></li>
+                <li><a href="../about.html" class="primary-menu-link">ABOUT</a></li>
+                <li><a href="../academics.html" class="primary-menu-link">ACADEMICS</a></li>
+                <li><a href="../academics.html" class="primary-menu-link">ADMISSIONS</a></li>
+                <li><a href="../research.html" class="primary-menu-link">RESEARCH</a></li>
                 <li><a href="http://news.uniben.edu" class="primary-menu-link" target="_blank">NEWS</a></li>
-                <li><a href="onlineresources.html" class="primary-menu-link">OER</a></li>
+                <li><a href="../onlineresources.html" class="primary-menu-link">OER</a></li>
             </ul>
         </nav>
         <div class="page_head">
@@ -261,20 +262,20 @@
                 <h5>QUICKLINKS</h5>
                 <div class="quicklinks">
                     <ul class="ftn-text">
-                        <li><a class="ftn-link" href="about.html">About</a></li>
-                        <li><a class="ftn-link" href="academics.html">Academics</a></li>
-                        <li><a class="ftn-link" href="admissions.html">Admissions</a></li>
-                        <li><a class="ftn-link" href="research.html">Research</a></li>
-                        <li><a class="ftn-link" href="#">News</a></li>
-                        <li><a class="ftn-link" href="onlineresources.html">O.E.R.</a></li>
+                        <li><a class="ftn-link" href="../about.html">About</a></li>
+                        <li><a class="ftn-link" href="../academics.html">Academics</a></li>
+                        <li><a class="ftn-link" href="../admissions.html">Admissions</a></li>
+                        <li><a class="ftn-link" href="../research.html">Research</a></li>
+                        <li><a class="ftn-link" href="https://news.uniben.edu">News</a></li>
+                        <li><a class="ftn-link" href="../onlineresources.html">O.E.R.</a></li>
                     </ul>
                     <ul class="ftn-text">
-                        <li><a class="ftn-link" href="staff.html">Staff</a></li>
-                        <li><a class="ftn-link" href="students.html">Students</a></li>
-                        <li><a class="ftn-link" href="visitors.html">Visitors</a></li>
-                        <li><a class="ftn-link" href="alumni.html">Alumni</a></li>
-                        <li><a class="ftn-link" href="library.html">Library</a></li>
-                        <li><a class="ftn-link" href="complaints.html">Complaints</a></li>
+                        <li><a class="ftn-link" href="../staff.html">Staff</a></li>
+                        <li><a class="ftn-link" href="../students.html">Students</a></li>
+                        <li><a class="ftn-link" href="../visitors.html">Visitors</a></li>
+                        <li><a class="ftn-link" href="../alumni.html">Alumni</a></li>
+                        <li><a class="ftn-link" href="../library.html">Library</a></li>
+                        <li><a class="ftn-link" href="../complaints.html">Complaints</a></li>
                     </ul>
                 </div>
             </div>
