@@ -7,6 +7,14 @@ var slidertimer = setInterval(TimerHandler, 8000);
 
 let projects = [
     {
+        title: "UniBEN Ugbowo Campus",
+        type: "Photos around the Campus",
+        content: "Viewing Uniben from the Main Entrance.",
+        image: "./assets/images/slider/uniben_welcome.JPG",
+        link: "#",
+        linktitle: "Click Here to Read More"
+    },
+    {
         title: "2019/2020 VIRTUAL MATRICULATION CEREMONY",
         type: "Matriculation Ceremony",
         content: "Watch the Matriculation ceremony for 2019/2020.",
@@ -15,8 +23,8 @@ let projects = [
         linktitle: "Click Here to Watch"
     },
     {
-        title: "Welcome",
-        type: "University of Benin",
+        title: "Ugbowo Campus Main Gate",
+        type: "Photos around the Campus",
         content: "Welcome to The University of Benin",
         image: "./assets/images/slider/uniben_gate2.png",
         link: "#",
@@ -29,14 +37,6 @@ let projects = [
         image: "./assets/images/slider/matriculating students.JPG",
         link: "https://news.uniben.edu/index.php/2020/08/17/2020-2021-admission-screening-exercise/",
         linktitle: "Click Here to Read More"
-    },
-    {
-        title: "The First of Many to Come",
-        type: "Ongoing Major Projects",
-        content: "TETFUND COMMENCES CONSTRUCTION OF 28-EXECUTIVE-ROOM INTERNATIONAL HOSTEL",
-        image: "./assets/images/slider/tetfund hostel project.jpeg",
-        link: "https://news.uniben.edu/index.php/2020/07/10/tetfund-commences-construction-of-28-executive-room-international-hostel-at-uniben/",
-        linktitle: "Click to Read More"
     },
     {
         title: "Uniben Orientation",
@@ -56,7 +56,7 @@ let projects = [
     },
     {
         title: "Uniben sets the pace",
-        type: "Serene Environment",
+        type: "Photos around the Campus",
         content: "The University environment is conducive for learning",
         image: "./assets/images/slider/4.jpg",
         link: "#",

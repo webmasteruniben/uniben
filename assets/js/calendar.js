@@ -22,7 +22,7 @@ let calendar = [
     {
         date: "20/02/2020",
         content: "Students go on mid-semester break"
-    },*/
+    },
     {
         date: "12/04/2020",
         content: "Students return to campus from mid-semester break to continue Academic activities"
@@ -30,7 +30,7 @@ let calendar = [
     {
         date: "03/05/2020",
         content: "Deadline for registration and payment of school charges for 2019/2020 Academic"
-    },
+    },*/
     {
         date: "04/05/2020",
         content: "Matriculation"
