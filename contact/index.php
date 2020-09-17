@@ -125,13 +125,16 @@
 <body>
     <div class="page">
         <header>
-        <div style="text-align: right;padding-top: 18px;">
+        <div id="site-logo">
+                <a href="../index.html" title="Uniben Home Page"><img src="assets/img/logo2.png" alt="Uniben Logo" class="site-logo-image" /></a>
+            </div>
+        
+            <div id="secondary-menu">
+            <div style="text-align: right;padding-top: 18px;">
                 <a href="https://uniben-alumni.waeup.org/applicants/checktranscript" target="_blank" class="secondary-menu-link link-border">Apply for Transcript</a>
                 <a href="#" class="secondary-menu-link link-border">Contact Us</a>
-            </div>
-            <div id="secondary-menu">
-                <div style="text-align: right;padding-top: 18px;"><a href="https://uniben-alumni.waeup.org/applicants/checktranscript" target="_blank" class="secondary-menu-link link-border">Apply for Transcript</a></div>
-                <ul style="padding-left: 0px;">
+            </div>    
+            <ul style="padding-left: 0px;">
 					<li class="secondary-menu-link link-border"><a href="https://mail.google.com" class="secondary-menu-link" target="_blank">Mail</a></li>
                     <li class="secondary-menu-link link-border"><a href="../staff.html" class="secondary-menu-link">Staff</a></li>
                     <li class="secondary-menu-link link-border"><a href="../students.html" class="secondary-menu-link">Students</a></li>
