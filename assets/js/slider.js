@@ -39,14 +39,6 @@ let projects = [
         linktitle: "Click Here to Read More"
     },
     {
-        title: "Uniben Orientation",
-        type: "New Students",
-        content: "We welcome our new Students",
-        image: "./assets/images/slider/2.jpg",
-        link: "#",
-        linktitle: "Click to Read More"
-    },
-    {
         title: "2019/2020 Convocation",
         type: "Graduating Students",
         content: "Our students are preprared to serve humanity",
@@ -55,9 +47,9 @@ let projects = [
         linktitle: "Click to Read More"
     },
     {
-        title: "Uniben sets the pace",
+        title: "The Foggiest Day on Campus",
         type: "Photos around the Campus",
-        content: "The University environment is conducive for learning",
+        content: "Photo taken during the most foggy day at the Uniben Campus",
         image: "./assets/images/slider/4.jpg",
         link: "#",
         linktitle: "Click to Read More"
