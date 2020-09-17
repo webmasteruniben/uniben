@@ -47,24 +47,6 @@ let news = [
         alt: "Professor Kokunre Agbontaen-Eghafona",
         link: "https://news.uniben.edu/index.php/2020/07/12/pope-francis-appoints-uniben-professor/",
         linktitle: "Click to Read More"
-    },
-	{
-        title: "First Virtual Training Workshop",
-        type: "RESEARCH",
-        content: "Date is 4th and 5th of August 2020 from 10am to 1pm daily. Online admission starts at 9:30am.Keep a date with us.",
-        image: "./assets/img/research/dna-forensic.jpg",
-        alt: "First Virtual Training Workshop",
-        link: "https://news.uniben.edu/index.php/2020/07/11/first-virtual-training-workshop/",
-        linktitle: "Click to Read More"
-    },
-    {
-        title: "234th Inaugural Lecture",
-        type: "VIDEOS",
-        content: "234 Inaugural Lecture of the University of Benin. Watch live by clicking here.",
-        image: "./assets/img/videos/video_image.JPG",
-        alt: "234th Inaugural Lecture",
-        link: "#",
-        linktitle: "Click to Read More"
     }
 ]
 
