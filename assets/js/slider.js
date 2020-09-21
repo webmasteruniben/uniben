@@ -45,14 +45,6 @@ let projects = [
         image: "./assets/images/slider/3.jpg",
         link: "#",
         linktitle: "Click to Read More"
-    },
-    {
-        title: "The Foggiest Day on Campus",
-        type: "Photos around the Campus",
-        content: "Photo taken during the most foggy day at the Uniben Campus",
-        image: "./assets/images/slider/4.jpg",
-        link: "#",
-        linktitle: "Click to Read More"
     }
 ]
 
