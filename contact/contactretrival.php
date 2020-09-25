@@ -42,7 +42,7 @@
    $messages = '';
    $_id = '';
     //if the user has submitted the form
-    if(isset($_POST["submit"])){
+    if(isset($_POST["submit_msg"])){
 
         //user input
         
@@ -86,7 +86,7 @@ if(mysqli_connect_errno() > 0){
 die("Error: unable to connect: ". mysqli_connect_errno());
 
 }else{
-    //echo "<p>Connection to database is successful</p>";
+    echo "<p>Connection to database is successful</p>";
 
         $name = $_POST["name"];
         $email = $_POST["email"];

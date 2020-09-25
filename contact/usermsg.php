@@ -4,12 +4,12 @@
 session_start();
 
 //If user is already logged in redirect him to the message page
-if(!isset($_SESSION["admin_loggedin"]) || $_SESSION["admin_loggedin"] !== true){
-    header("location: admin.php");
+if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
+    header("location: login.php");
     exit;
 }
-
 ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -21,7 +21,7 @@ if(!isset($_SESSION["admin_loggedin"]) || $_SESSION["admin_loggedin"] !== true){
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <script src="https://use.fontawesome.com/2ff0eac90c.js"></script>
+
 
     <style>
         #site-logo {
@@ -33,21 +33,7 @@ if(!isset($_SESSION["admin_loggedin"]) || $_SESSION["admin_loggedin"] !== true){
             width: 100%;
             height: 100%;
         }
-/*.navbar{
-            width: 100%;
-            height: 40px;
-            background-color: #9C0C84;
-            margin-top: 15px;
-            margin-bottom: 15px;
-            padding-top: 15px;            
-        }
-        .btn{
-            float: right;
-            margin-right: 20px;
-        }
-        .btn a{
-            text-decoration: none;
-        }*/
+        
 
         h1{
             color:purple;
@@ -98,9 +84,10 @@ if(!isset($_SESSION["admin_loggedin"]) || $_SESSION["admin_loggedin"] !== true){
     <div class="page">
         <header>
             <div id="site-logo">
-                <a href="../index.html" title="Uniben Home Page"><img src="assets/img/logo2.png" alt="Uniben Logo" class="site-logo-image" /></a>
+                <a href="../index.html" target="blank" title="Uniben Home Page"><img src="assets/img/logo2.png" alt="Uniben Logo" class="site-logo-image" /></a>
             </div>
             
+
             <nav class="navbar navbar-default" style="background-color:#9C0C84;">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -111,9 +98,8 @@ if(!isset($_SESSION["admin_loggedin"]) || $_SESSION["admin_loggedin"] !== true){
       
     </ul>
     <ul class="nav navbar-nav navbar-right">
-      <li><a href="register_users.php" style="color: #fff;"><i class="fa fa-user-plus" aria-hidden="true"></i> Register users</a></li>
-      <li><a href="register_admin.php" style="color: #fff;"><i class="fa fa-user-plus" aria-hidden="true"></i> Register admin</a></li>
-      <li><a href="adminlogout.php" style="color: #fff;"><span class="glyphicon glyphicon-log-out"></span> Sign out</a></li>
+      <li><a href="messagedb.php" target="blank" style="color: #fff;"><span class="glyphicon glyphicon-user"></span> Admin</a></li>
+      <li><a href="logout.php" style="color: #fff;"><span class="glyphicon glyphicon-log-in"></span> Sign out</a></li>
     </ul>
   </div>
 </nav>
@@ -161,7 +147,7 @@ if(!isset($_SESSION["admin_loggedin"]) || $_SESSION["admin_loggedin"] !== true){
                    echo "<td>" . $row["message"] . "</td>";
                    echo "<td>" . $row["date"] . "</td>";
                    echo "<td>" . $row["comments"] . "</td>";
-                   echo "<td> <a href='delete.php?button=" . $row["id"] . "'><button type='button' class='btn btn-danger'>Delete</button></a> </td>";
+                   echo "<td> <a href='treat.php?button=" . $row["id"] . "'><button type='button' class='btn btn-success'>Message replied</button></a> </td>";
                    echo "<tr>";
                     // $count++;
                    // echo "<br />";
