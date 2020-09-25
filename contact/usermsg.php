@@ -143,7 +143,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                    echo "<tr>";
                    echo "<td>" . $row["id"] . "</td>";
                    echo "<td>" . $row["name"] . "</td>";
-                   echo "<td>" . $row["email"] . "</td>";
+                   echo "<td><a href='mailto:" . $row["email"] . "'>" . $row["email"] . "</a></td>";
                    echo "<td>" . $row["message"] . "</td>";
                    echo "<td>" . $row["date"] . "</td>";
                    echo "<td>" . $row["comments"] . "</td>";
