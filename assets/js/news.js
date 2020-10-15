@@ -4,6 +4,15 @@ const section = document.querySelector('.section-list')
 
 let news = [
     {
+        title: "UNIBEN ALUMNI ASSOCIATION DONATES BOREHOLES TO UNIVERSITY",
+        type: "UPDATE",
+        content: "Alumni President assures UNIBEN VC Of donation of coordinated projects.",
+        image: "./assets/img/news/alumni logo.jpg",
+        alt: "UNIBEN ALUMNI ASSOCIATION",
+        link: "https://news.uniben.edu/index.php/2020/10/15/uniben-alumni-association-donates-boreholes-to-university/",
+        linktitle: "Click to Read More"
+    },
+    {
         title: "UNIBEN 2019/2020 VIRTUAL MATRICULATION CEREMONY",
         type: "NEWS",
         content: "Watch The matriculation ceremony for 2019/2020.",
@@ -38,16 +47,8 @@ let news = [
         alt: "Transcripts Application",
         link: "https://uniben.waeup.org/applicants/checktranscript",
         linktitle: "Click to Apply"
-    },
-    {
-        title: "Pope Francis Appoints UNIBEN Professor",
-        type: "NEWS",
-        content: "Pope Francis appoints UNIBEN Professor, Kokunre Agbontaen-Eghafona, to the prestigious Pontifical Academy of Social Sciences.",
-        image: "./assets/img/news/Prof Eghafona.jpg",
-        alt: "Professor Kokunre Agbontaen-Eghafona",
-        link: "https://news.uniben.edu/index.php/2020/07/12/pope-francis-appoints-uniben-professor/",
-        linktitle: "Click to Read More"
     }
+    
 ]
 
 news.forEach(({title, type, content, image,alt, link, linktitle}, i) => {
