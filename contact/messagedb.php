@@ -171,7 +171,7 @@ if (isset($_GET['page_no']) && $_GET['page_no']!="") {
 		$page_no = 1;
         }
 
-	$total_records_per_page = 3;
+	$total_records_per_page = 30;
     $offset = ($page_no-1) * $total_records_per_page;
 	$previous_page = $page_no - 1;
 	$next_page = $page_no + 1;
