@@ -175,7 +175,7 @@ if (isset($_GET['page_no']) && $_GET['page_no']!="") {
 		echo "<tr>
 			  <td>".$row['id']."</td>
               <td>".$row['name']."</td>
-              <td><a href='mailto:{$row['email']}>".$row['email']."</a></td>
+              <td><a href='mailto:" . $row['email'] . "'>".$row['email']."</a></td>
 	 		  <td>".$row['message']."</td>
               <td>".$row['date']."</td>
               <td>".$row['comments']."</td>
