@@ -141,10 +141,10 @@ else {
 <thead>
 <tr>
 <th style='width:50px;'>ID</th>
-<th style='width:150px;'>Names</th>
-<th style='width:150px;'>Emails</th>
-<th style='width:50px;'>Messages</th>
-<th style='width:150px;'>Dates</th>
+<th style='width:100px;'>Names</th>
+<th style='width:80px;'>Emails</th>
+<th style='width:300px;'>Messages</th>
+<th style='width:50px;'>Dates</th>
 <th style='width:150px;'>Comments</th>
 <th style='width:150px;'>Action</th>
 </tr>
