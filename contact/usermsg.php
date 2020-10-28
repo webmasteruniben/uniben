@@ -1,13 +1,23 @@
 
 <?php
-//Initializing the session
+
 session_start();
 
-//If user is already logged in redirect him to the message page
-if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
-    header("location: login.php");
-    exit;
+if (!isset($_SESSION['userlogin'])) {
+    
+    //redirect to login page
+header("location: login.php");
+   
 }
+else {
+    $now = time(); // Checking the time now when home page starts.
+
+    if ($now > $_SESSION['expire1']) {
+        session_destroy();
+       header("location: login.php");
+       exit;
+    }}
+  
 ?>
 
 
@@ -111,64 +121,149 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
         <div class="container">
         <div class="row">
             <div class="col-sm-offset-1 col-12 contactForm">
-                <h1>Message Database</h1>
-            <?php
-            //connect to our database.
-            $link = @mysqli_connect("localhost:3306", "root", "Pa55w0rd@1", "admin_uniben_contact");
+            <h1>Message Database</h1>
+            <div style="overflow-x: auto;">
+                
+                <table class="table table-striped table-bordered">
+<thead>
+<tr>
+<th style='width:50px;'>ID</th>
+<th style='width:150px;'>Names</th>
+<th style='width:150px;'>Emails</th>
+<th style='width:50px;'>Messages</th>
+<th style='width:150px;'>Dates</th>
+<th style='width:150px;'>Action</th>
+<th style='width:150px;'>Comments</th>
+</tr>
+</thead>
+<tbody>
+<?php
+//connect to our database.
+define('DB_SERVER', 'localhost:3306');
+define('DB_USERNAME', 'root');
+define('DB_PASSWORD', 'Pa55w0rd@1');
+define('DB_NAME', 'admin_uniben_contact');
+$link = @mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
 
-            //checking connection
-            if(mysqli_connect_errno() > 0){
-            die("Error: unable to connect: ". mysqli_connect_errno());
-            
-            }else{
-                //setup message rietrival
-                $sql = "SELECT * FROM contact_us ORDER BY id DESC";
-                if($result = mysqli_query($link, $sql)){
-                //print_r($result);
-                if(mysqli_num_rows($result)>0){
-                    $count = 0;
-                    // creating table for db
-                    echo "<table class='table table-stripped table-hover table-responsive table-bordered table-condenced'>
-                    <tr>
-                    <th>ID</th>
-                    <th>Name</th>
-                    <th>Email</th>
-                    <th>Message</th>
-                    <th>Date</th>
-                    <th>Comments</th>
-                    <th>Action</th>
-                    </tr>";
+//checking connection
+if(mysqli_connect_errno() > 0){
+die("Error: unable to connect: ". mysqli_connect_errno());
+}else{
+    //echo "<p>Connection to database is successful</p>";
+}
 
-                    while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){
-                   echo "<tr>";
-                   echo "<td>" . $row["id"] . "</td>";
-                   echo "<td>" . $row["name"] . "</td>";
-                   echo "<td><a href='mailto:" . $row["email"] . "'>" . $row["email"] . "</a></td>";
-                   echo "<td>" . $row["message"] . "</td>";
-                   echo "<td>" . $row["date"] . "</td>";
-                   echo "<td>" . $row["comments"] . "</td>";
-                   echo "<td> <a href='treat.php?button=" . $row["id"] . "'><button type='button' class='btn btn-success'>Message replied</button></a> </td>";
-                   echo "<tr>";
-                    // $count++;
-                   // echo "<br />";
-                   // echo $count;
-                   // echo "<br />";
-                   // echo $row;
-                    }
-                    echo "</table>";
-                    //close result set
-                    mysqli_free_result($result);
-                }else{
-                    echo "<p>Message database is empty.</p>";
-                }
-            }else{
-                echo "<p>Unable to get data from message database: $sql. ". mysqli_error($link) . "</p>";
-            }
+if (isset($_GET['page_no']) && $_GET['page_no']!="") {
+	$page_no = $_GET['page_no'];
+	} else {
+		$page_no = 1;
         }
+
+	$total_records_per_page = 3;
+    $offset = ($page_no-1) * $total_records_per_page;
+	$previous_page = $page_no - 1;
+	$next_page = $page_no + 1;
+	$adjacents = "2"; 
+
+	$result_count = mysqli_query($link,"SELECT COUNT(*) As total_records FROM `contact_us`");
+	$total_records = mysqli_fetch_array($result_count);
+	$total_records = $total_records['total_records'];
+    $total_no_of_pages = ceil($total_records / $total_records_per_page);
+	$second_last = $total_no_of_pages - 1; // total page minus 1
+
+    $result = mysqli_query($link,"SELECT * FROM `contact_us` ORDER BY id DESC LIMIT $offset, $total_records_per_page");
+    while($row = mysqli_fetch_array($result)){
+		echo "<tr>
+			  <td>".$row['id']."</td>
+              <td>".$row['name']."</td>
+              <td><a href='mailto:{$row['email']}>".$row['email']."</a></td>
+	 		  <td>".$row['message']."</td>
+              <td>".$row['date']."</td>
+              <td>".$row['comments']."</td>
+              <td> <a href='treat.php?button=" . $row["id"] . "&page_no=" .$page_no . "'><button type='button' class='btn btn-success'>Message replied</button></a> </td>
+		   	  </tr>";
         
-        
-            ?>
-               
+            }
+	mysqli_close($link);
+    ?>
+</tbody>
+</table>
+            </div>
+<div style='padding: 10px 20px 0px; border-top: dotted 1px #CCC;'>
+<strong>Page <?php echo $page_no." of ".$total_no_of_pages; ?></strong>
+</div>
+
+<ul class="pagination">
+	<?php // if($page_no > 1){ echo "<li><a href='?page_no=1'>First Page</a></li>"; } ?>
+    
+	<li <?php if($page_no <= 1){ echo "class='disabled'"; } ?>>
+	<a <?php if($page_no > 1){ echo "href='?page_no=$previous_page'"; } ?>>Previous</a>
+	</li>
+       
+    <?php 
+	if ($total_no_of_pages <= 10){  	 
+		for ($counter = 1; $counter <= $total_no_of_pages; $counter++){
+			if ($counter == $page_no) {
+		   echo "<li class='active'><a>$counter</a></li>";	
+				}else{
+           echo "<li><a href='?page_no=$counter'>$counter</a></li>";
+				}
+        }
+	}
+	elseif($total_no_of_pages > 10){
+		
+	if($page_no <= 4) {			
+	 for ($counter = 1; $counter < 8; $counter++){		 
+			if ($counter == $page_no) {
+		   echo "<li class='active'><a>$counter</a></li>";	
+				}else{
+           echo "<li><a href='?page_no=$counter'>$counter</a></li>";
+				}
+        }
+		echo "<li><a>...</a></li>";
+		echo "<li><a href='?page_no=$second_last'>$second_last</a></li>";
+		echo "<li><a href='?page_no=$total_no_of_pages'>$total_no_of_pages</a></li>";
+		}
+
+	 elseif($page_no > 4 && $page_no < $total_no_of_pages - 4) {		 
+		echo "<li><a href='?page_no=1'>1</a></li>";
+		echo "<li><a href='?page_no=2'>2</a></li>";
+        echo "<li><a>...</a></li>";
+        for ($counter = $page_no - $adjacents; $counter <= $page_no + $adjacents; $counter++) {			
+           if ($counter == $page_no) {
+		   echo "<li class='active'><a>$counter</a></li>";	
+				}else{
+           echo "<li><a href='?page_no=$counter'>$counter</a></li>";
+				}                  
+       }
+       echo "<li><a>...</a></li>";
+	   echo "<li><a href='?page_no=$second_last'>$second_last</a></li>";
+	   echo "<li><a href='?page_no=$total_no_of_pages'>$total_no_of_pages</a></li>";      
+            }
+		
+		else {
+        echo "<li><a href='?page_no=1'>1</a></li>";
+		echo "<li><a href='?page_no=2'>2</a></li>";
+        echo "<li><a>...</a></li>";
+
+        for ($counter = $total_no_of_pages - 6; $counter <= $total_no_of_pages; $counter++) {
+          if ($counter == $page_no) {
+		   echo "<li class='active'><a>$counter</a></li>";	
+				}else{
+           echo "<li><a href='?page_no=$counter'>$counter</a></li>";
+				}                   
+                }
+            }
+	}
+?>
+    
+	<li <?php if($page_no >= $total_no_of_pages){ echo "class='disabled'"; } ?>>
+	<a <?php if($page_no < $total_no_of_pages) { echo "href='?page_no=$next_page'"; } ?>>Next</a>
+	</li>
+    <?php if($page_no < $total_no_of_pages){
+		echo "<li><a href='?page_no=$total_no_of_pages'>Last &rsaquo;&rsaquo;</a></li>";
+		} ?>
+</ul>
+
             
         </div>
     </div>

@@ -2,11 +2,23 @@
 //Initializing the session
 session_start();
 
-//If user is already logged in redirect him to the message page
-if(isset($_SESSION["admin_loggedin"]) && $_SESSION["admin_loggedin"] === true){
+if (isset($_SESSION['admin_loggedin'])) {
+    $now = time(); // Checking the time now when home page starts.
+
+    if ($now > $_SESSION['expire']) {
+        session_destroy();
+       header("location: admin.php");
+    }
+    else {
+    
+    //redirect to login page
     header("location: messagedb.php");
+  
+    }
     exit;
 }
+
+    
 
 //connect to our database.
 define('DB_SERVER', 'localhost:3306');
@@ -19,7 +31,7 @@ $link = @mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
 if(mysqli_connect_errno() > 0){
 die("Error: unable to connect: ". mysqli_connect_errno());
 }else{
-    echo "<p>Connection to database is successful</p>";
+   // echo "<p>Connection to database is successful</p>";
 }
 
 //initializng variables
@@ -70,13 +82,12 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                     if(mysqli_stmt_fetch($stmt)){
                         if(password_verify($password, $hashed_password)){
                             //if password is correct, start new session
-                            session_start();
-                            //store data in session variables
-                            $_SESSION["admin_loggedin"] = true;
+                            $_SESSION['admin_loggedin'] = $username;
                             $_SESSION["id"] = $id;
-                            $_SESSION["username"] = $username;
-                             // redirecting the message page
-                             header("location: messagedb.php");
+                            $_SESSION['loggedin'] = time(); // Taking now logged in time.
+                            // Ending a session in 2 hours from the starting time.
+                            $_SESSION['expire'] = $_SESSION['loggedin'] + (120 * 2);
+                            header("location: messagedb.php");
                         }else{
                             $password_err = "The password you entered is not valid.";
 

@@ -80,13 +80,14 @@
         //no errors
         //connect to our database.
 $link = @mysqli_connect("localhost:3306", "root", "Pa55w0rd@1", "admin_uniben_contact");
+//$link = @mysqli_connect("localhost", "root", "", "contact");
 
 //checking connection
 if(mysqli_connect_errno() > 0){
 die("Error: unable to connect: ". mysqli_connect_errno());
 
 }else{
-    echo "<p>Connection to database is successful</p>";
+    //echo "<p>Connection to database is successful</p>";
 
         $name = $_POST["name"];
         $email = $_POST["email"];

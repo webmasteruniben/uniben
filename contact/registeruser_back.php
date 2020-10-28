@@ -1,4 +1,23 @@
 <?php
+session_start();
+
+if (!isset($_SESSION['admin_loggedin'])) {
+    
+    //redirect to login page
+header("location: admin.php");
+   
+}
+else {
+    $now = time(); // Checking the time now when home page starts.
+
+    if ($now > $_SESSION['expire']) {
+        session_destroy();
+       header("location: admin.php");
+       exit;
+    }}
+?>
+
+<?php
 
 //connect to our database.
 define('DB_SERVER', 'localhost:3306');
@@ -11,7 +30,7 @@ $link = @mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
 if(mysqli_connect_errno() > 0){
 die("Error: unable to connect: ". mysqli_connect_errno());
 }else{
-    echo "<p>Connection to database is successful</p>";
+   // echo "<p>Connection to database is successful</p>";
 }
 //defining and initializing variables
 $username = "";
@@ -88,7 +107,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                     if(mysqli_stmt_execute($stmt)){
                         //$registration_succ = "Registration successful.";
                         //redirecting to login page
-                        header("location: admin.php");
+                        header("location: users.php");
                     }else{
                         echo "Something went wrong. Please try agian later.";
                     }

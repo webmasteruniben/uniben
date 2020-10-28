@@ -81,7 +81,7 @@
     </ul>
     <ul class="nav navbar-nav navbar-right">
       <!--<li><a href="#" style="color: #fff;"><span class="glyphicon glyphicon-user"></span> Admin</a></li>-->
-      <li><a href="contactus.php" style="color: #fff;"><i class="fa fa-undo" aria-hidden="true"></i>Contact Us</a></li>
+      <li><a href="index.php" style="color: #fff;"><i class="fa fa-undo" aria-hidden="true"></i>Contact Us</a></li>
     </ul>
   </div>
 </nav>
@@ -98,7 +98,7 @@
         
     </style>
         <div class="wrapper">
-        <h2>Login</h2>
+        <h2>User Login</h2>
         <!--<p>Please fill in your credentials to login.</p>-->
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
             <div class="form-group <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">

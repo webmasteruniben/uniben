@@ -1,14 +1,4 @@
-<?php
-//Initializing the session
-session_start();
 
-//If user is already logged in redirect him to the message page
-if(!isset($_SESSION["admin_loggedin"]) || $_SESSION["admin_loggedin"] !== true){
-    header("location: admin.php");
-    exit;
-}
-
-?>
 
 <?php
     include 'register_admin_back.php';
@@ -91,8 +81,8 @@ if(!isset($_SESSION["admin_loggedin"]) || $_SESSION["admin_loggedin"] !== true){
       
     </ul>
     <ul class="nav navbar-nav navbar-right">
-      <li><a href="messagedb.php" style="color: #fff;"><i class="fa fa-undo" aria-hidden="true"></i>Back to message</a></li>
-      <li><a href="loginback.php" style="color: #fff;"><span class="glyphicon glyphicon-log-in"></span> Sign out</a></li>
+      <li><a href="administrators.php" style="color: #fff;"><i class="fa fa-undo" aria-hidden="true"></i>Back to users</a></li>
+      <li><a href="adminlogout.php" style="color: #fff;"><span class="glyphicon glyphicon-log-in"></span> Sign out</a></li>
     </ul>
   </div>
 </nav>
