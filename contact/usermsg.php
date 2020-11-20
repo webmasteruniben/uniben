@@ -129,8 +129,8 @@ else {
 <tr>
 <th style='width:50px;'>ID</th>
 <th style='width:100px;'>Names</th>
-<th style='width:100px;'>Emails</th>
-<th style='width:250px;'>Messages</th>
+<th style='width:70px;'>Emails</th>
+<th style='width:280px;'>Messages</th>
 <th style='width:50px;'>Dates</th>
 <th style='width:150px;'>Action</th>
 <th style='width:150px;'>Comments</th>

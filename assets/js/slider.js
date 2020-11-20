@@ -7,6 +7,14 @@ var slidertimer = setInterval(TimerHandler, 8000);
 
 let projects = [
     {
+        title: "UniBEN 50th Founder's Day",
+        type: "Live Event",
+        content: "Join us online for the 50th Founder's Day.",
+        image: "./assets/images/slider/anniv.jpg",
+        link: "https://news.uniben.edu/index.php/2020/06/15/the-university-of-benin-golden-jubilee-celebration-matters-arising/",
+        linktitle: "Read about Golden Jubilee: Matters Arising"
+    },
+    {
         title: "UniBEN Ugbowo Campus",
         type: "Photos around the Campus",
         content: "Viewing Uniben from the Main Entrance.",
