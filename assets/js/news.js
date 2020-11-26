@@ -4,21 +4,30 @@ const section = document.querySelector('.section-list')
 
 let news = [
     {
-        title: "UNIBEN ALUMNI ASSOCIATION DONATES BOREHOLES TO UNIVERSITY",
-        type: "UPDATE",
-        content: "Alumni President assures UNIBEN VC Of donation of coordinated projects.",
-        image: "./assets/img/news/alumni logo.jpg",
-        alt: "UNIBEN ALUMNI ASSOCIATION",
-        link: "https://news.uniben.edu/index.php/2020/10/15/uniben-alumni-association-donates-boreholes-to-university/",
-        linktitle: "Click to Read More"
+        title: "Post-UDE Admission Screening 2020/2021",
+        type: "NEWS",
+        content: "Application for the  University  of  Benin  (UNIBEN) Post-UDE Admission  Screening  Exercise for  2020/2021 Academic Session will take place between 13rd November, 2020 and 30th  November,  2020.",
+        image: "./assets/img/news/post_de.JPG",
+        alt: "Post-UDE ADMISSION SCREENING EXERCISE",
+        link: "https://uniben.waeup.org/applicants/pude2020/index",
+        linktitle: "Click Here to Apply"
     },
     {
-        title: "UNIBEN 2019/2020 VIRTUAL MATRICULATION CEREMONY",
+        title: "EXAM SCHEDULE FOR 2020/2021 ADMISSION SCREENING EXERCISE",
         type: "NEWS",
-        content: "Watch The matriculation ceremony for 2019/2020.",
-        image: "./assets/img/news/uniben_virtual_matric.JPG",
-        alt: "2019/2020 VIRTUAL MATRICULATION CEREMONY",
-        link: "https://news.uniben.edu/index.php/2020/09/12/watch-live2019-2020-virtual-matriculation-ceremony/",
+        content: "Applicants for the Admission  Screening  Exercise  (Post  UTME)  for  2020/2021 Academic Session should login to their portal and confirm the date and time for their examinations.",
+        image: "./assets/img/news/matric.JPG",
+        alt: "ADMISSION SCREENING EXERCISE",
+        link: "https://uniben.waeup.org/applicants/ase2020/index",
+        linktitle: "Click Here to Apply"
+    },
+    {
+        title: "UNIBEN AT 50: FOUNDERS DAY",
+        type: "NEWS",
+        content: "Watch Golden Jubilee of the University as UNIBEN marks 50 years. Watch the Event and view the gallery photos.",
+        image: "./assets/img/news/vcfoundersday.JPG",
+        alt: "UNIBEN FOUNDERS DAY",
+        link: "https://news.uniben.edu/index.php/2020/11/20/live-event-50th-founders-day/",
         linktitle: "Click Here to watch"
     },
     {
@@ -33,7 +42,7 @@ let news = [
     {
         title: "2020/2021 ADMISSION SCREENING EXERCISE",
         type: "NEWS",
-        content: "The  University  of  Benin  (UNIBEN)  Admission  Screening  Exercise  (Post  UTME)  for  2020/2021 Academic Session will take place between Monday, 23rd November, 2020 and  Tuesday,  8th  December,  2020.",
+        content: "The  University  of  Benin  (UNIBEN)  Admission  Screening  Exercise  (Post  UTME)  for  2020/2021 Academic Session will take place between 2nd December, 2020 and 10th  December,  2020.",
         image: "./assets/img/news/matric.JPG",
         alt: "ADMISSION SCREENING EXERCISE",
         link: "https://uniben.waeup.org/applicants/ase2020/index",
