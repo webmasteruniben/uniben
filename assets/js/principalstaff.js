@@ -14,7 +14,7 @@ let principalstaff = [
     {
         title: "PROF. LILIAN IMUENTINYAN SALAMI",
         type: "Vice Chancellor, University of Benin, Nigeria",
-        content: "Prof. L.I. Salami is the first indegenous female Vice-Chancellor, the second female Vice-Chancellor and the tenth substantive Vice-Chancellor of the University of Benin. She recieved her appointment since 2019.",
+        content: "Prof. L.I. Salami is the first indigenous female Vice-Chancellor, the second female Vice-Chancellor and the tenth substantive Vice-Chancellor of the University of Benin. She recieved her appointment since 2019.",
         image: "./assets/img/staff/PROF SALAMI.jpg",
         alt: "PROF. LILIAN IMUENTINYAN SALAMI",
         href: "profliliansalami.html"
