@@ -31,7 +31,7 @@ let principalstaff = [
         title: "PROFESSOR DAVID NOSAKHARE IZEKOR",
         type: "Deputy Vice Chancellor Academics, University of Benin, Nigeria",
         content: "Professor David Nosakhare Izekor is a Professor in the Department of Forest Resources and Wildlife Management and was previously the Director of General Studies, University of Benin.",
-        image: "./assets/img/staff/izekor.JPG",
+        image: "./assets/img/staff/izekor.jpg",
         alt: "PROFESSOR DAVID NOSAKHARE IZEKOR",
         href: "profdavidizekor.html"
     },
@@ -39,7 +39,7 @@ let principalstaff = [
         title: "PROF. JOHN OGENE (Ph.D.) FSNA, FIPMD, JP",
         type: "Deputy Vice Chancellor Ekenwan, University of Benin, Nigeria",
         content: "Professor John Ogene is a Professor of Art History and Graphics in the Department of Fine and Applied Arts, University of Benin. .",
-        image: "./assets/img/staff/ogene.jpg",
+        image: "./assets/img/staff/prof ogene.jpg",
         alt: "PROF. JOHN OGENE (Ph.D.) FSNA, FIPMD, JP",
         href: "profjohnogene.html"
     }
