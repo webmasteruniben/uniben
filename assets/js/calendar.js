@@ -32,11 +32,11 @@ let calendar = [
         content: "Deadline for registration and payment of school charges for 2019/2020 Academic"
     },*/
     {
-        date: "04/05/2020",
-        content: "Matriculation"
+        date: "06/01/2020",
+        content: "New students come into residence for 2019/2020 Academic Session"
     },
     {
-        date: "29/05/2020",
+        date: "07/01/2020",
         content: "End of First semester lectures for 2019/2020 Academic "
     },
     {

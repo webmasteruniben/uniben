@@ -4,6 +4,15 @@ const section = document.querySelector('.section-list')
 
 let news = [
     {
+        title: "FIRST ANNIVERSARY MEMORIAL LECTURE",
+        type: "NEWS",
+        content: "FIRST ANNIVERSARY MEMORIAL LECTURE IN HONOUR OF CHIEF (PROF.) EMMANUEL U. EMOVON CON FAS KSP JP. Time: Feb 18, 2021 11:00 AM West Central Africa.",
+        image: "./assets/img/news/evo.jpg",
+        alt: "FIRST ANNIVERSARY MEMORIAL LECTURE",
+        link: "https://news.uniben.edu/index.php/2021/02/18/first-anniversary-memorial-lecture-in-honour-of-chief-prof-emmanuel-u-emovon/",
+        linktitle: "Click Here to Watch"
+    },
+    {
         title: "Post-UDE Admission Screening 2020/2021",
         type: "NEWS",
         content: "Application for the  University  of  Benin  (UNIBEN) Post-UDE Admission  Screening  Exercise for  2020/2021 Academic Session will take place between 13rd November, 2020 and 30th  November,  2020.",

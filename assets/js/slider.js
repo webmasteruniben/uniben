@@ -7,6 +7,14 @@ var slidertimer = setInterval(TimerHandler, 8000);
 
 let projects = [
     {
+        title: "FIRST ANNIVERSARY MEMORIAL LECTURE",
+        type: "Live Event",
+        content: "FIRST ANNIVERSARY MEMORIAL LECTURE IN HONOUR OF CHIEF (PROF.) EMMANUEL U. EMOVON",
+        image: "./assets/images/slider/emovon.jpg",
+        link: "https://news.uniben.edu/index.php/2021/02/18/first-anniversary-memorial-lecture-in-honour-of-chief-prof-emmanuel-u-emovon/",
+        linktitle: "Watch The Programme"
+    },
+    {
         title: "UniBEN 50th Founder's Day",
         type: "Live Event",
         content: "Join us online for the 50th Founder's Day.",
