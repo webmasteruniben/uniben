@@ -6,6 +6,14 @@ let last_slide
 var slidertimer = setInterval(TimerHandler, 8000);
 
 let projects = [
+     {
+        title: "INAUGURAL LECTURE",
+        type: "Live Event",
+        content: "PROFESSOR OLAJIRE BOSEDE AJAYI, Professor of Optometry",
+        image: "./assets/images/slider/inaugural_236.jpg",
+        link: "https://news.uniben.edu/index.php/2021/02/23/236th-inaugural-lecture-series/",
+        linktitle: "Watch The Programme Here"
+    },
     {
         title: "FIRST ANNIVERSARY MEMORIAL LECTURE",
         type: "Live Event",
