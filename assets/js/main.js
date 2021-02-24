@@ -1,6 +1,12 @@
 
 let searchitems = [
-      {
+    {
+        title: "online learning",
+        href: "onlinelearning.html",
+        content: "Online Learning",
+        
+    },
+    {
         title: "staff update",
         href: "https://staff.uniben.edu",
         content: "Staff Update Form",
