@@ -1,5 +1,17 @@
 
 let searchitems = [
+      {
+        title: "staff update",
+        href: "https://staff.uniben.edu",
+        content: "Staff Update Form",
+        
+    },
+    {
+        title: "staff profile",
+        href: "https://profiles.uniben.edu",
+        content: "Staff Profiles",
+        
+    },
     {
         title: "staff",
         href: "staff.html",
@@ -81,7 +93,11 @@ search_btn.addEventListener('click', () => {
                 console.log(search_content)
             }
 
-        })
+        }
+        
+
+        
+        )
         if (found == false) {
             search_content.textContent = "Not Found"
         }
