@@ -403,7 +403,7 @@
 
             var username = result.data.email;
                 // read product record based on given ID
-                $.getJSON("https://profiles.uniben.edu/api/profile/read_update_one_.php?id=" + username, function(data){
+                $.getJSON("https://profiles.uniben.edu/api/profile/read_update_one_by_email.php?id=" + username, function(data){
 
                 //console.log('test');
                 // read products button will be here
@@ -568,9 +568,9 @@
         var jwt = getCookie('jwt');
         $.post("https://profiles.uniben.edu/api/staff/validate_token.php", JSON.stringify({ jwt:jwt })).done(function(result) {
 
-            var username = result.data.id;
+            var username = result.data.email;
                 // read product record based on given ID
-            $.getJSON("https://profiles.uniben.edu/api/profile/read_update_one.php?id=" + username, function(data){
+            $.getJSON("https://profiles.uniben.edu/api/profile/read_update_one_by_email.php?id=" + username, function(data){
 
                 //console.log('test');
                 // read products button will be here
@@ -634,9 +634,9 @@
         var jwt = getCookie('jwt');
         $.post("https://profiles.uniben.edu/api/staff/validate_token.php", JSON.stringify({ jwt:jwt })).done(function(result) {
 
-            var username = result.data.id;
+            var username = result.data.email;
                 // read product record based on given ID
-            $.getJSON("https://profiles.uniben.edu/api/profile/read_update_one.php?id=" + username, function(data){
+            $.getJSON("https://profiles.uniben.edu/api/profile/read_update_one_by_email.php?id=" + username, function(data){
 
                 console.log('test');
                
