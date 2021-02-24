@@ -40,24 +40,6 @@ let news = [
         linktitle: "Click Here to watch"
     },
     {
-        title: "UNIBEN CBT Practice Test 2020/2021",
-        type: "NEWS",
-        content: "Practice CBT-Styled Text for Post UTME, and other related exams questions to  help you prepare for your exams as you set out on your quest for admission into university",
-        image: "./assets/img/news/computer cbt.jpg",
-        alt: "UNIBEN CBT Practice Test",
-        link: "https://uniben.waeup.org/applicants/cbt2020/",
-        linktitle: "Click Here to Apply"
-    },
-    {
-        title: "2020/2021 ADMISSION SCREENING EXERCISE",
-        type: "NEWS",
-        content: "The  University  of  Benin  (UNIBEN)  Admission  Screening  Exercise  (Post  UTME)  for  2020/2021 Academic Session will take place between 2nd December, 2020 and 10th  December,  2020.",
-        image: "./assets/img/news/matric.JPG",
-        alt: "ADMISSION SCREENING EXERCISE",
-        link: "https://uniben.waeup.org/applicants/ase2020/index",
-        linktitle: "Click Here to Apply"
-    },
-    {
         title: "Transcripts",
         type: "NEWS",
         content: "Our esteemed students can now apply for transripts on the student portal.",
