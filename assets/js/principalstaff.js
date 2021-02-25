@@ -31,7 +31,7 @@ let principalstaff = [
         title: "PROFESSOR DAVID NOSAKHARE IZEKOR",
         type: "Deputy Vice Chancellor Academics, University of Benin, Nigeria",
         content: "Professor David Nosakhare Izekor is a Professor in the Department of Forest Resources and Wildlife Management and was previously the Director of General Studies, University of Benin.",
-        image: "./assets/img/staff/izekor.jpg",
+        image: "./assets/img/staff/davidizekor.jpg",
         alt: "PROFESSOR DAVID NOSAKHARE IZEKOR",
         href: "profdavidizekor.html"
     },
