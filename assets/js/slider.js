@@ -6,7 +6,15 @@ let last_slide
 var slidertimer = setInterval(TimerHandler, 8000);
 
 let projects = [
-     {
+    {
+        title: "UNIVERSITY OF BENIN MICROFINANCE BANK",
+        type: "Live Meeting",
+        content: "Join online for the UNIBEN MICROFINANCE ZOOM MEETING",
+        image: "./assets/images/slider/mfb_banner.jpg",
+        link: "https://news.uniben.edu/index.php/2021/03/03/university-of-benin-microfinance-bank/",
+        linktitle: "Click here to join"
+    },
+    {
         title: "INAUGURAL LECTURE",
         type: "Live Event",
         content: "PROFESSOR OLAJIRE BOSEDE AJAYI, Professor of Optometry",
@@ -21,14 +29,6 @@ let projects = [
         image: "./assets/images/slider/emovon.jpg",
         link: "https://news.uniben.edu/index.php/2021/02/18/first-anniversary-memorial-lecture-in-honour-of-chief-prof-emmanuel-u-emovon/",
         linktitle: "Watch The Programme"
-    },
-    {
-        title: "UniBEN 50th Founder's Day",
-        type: "Live Event",
-        content: "Join us online for the 50th Founder's Day.",
-        image: "./assets/images/slider/anniv.jpg",
-        link: "https://news.uniben.edu/index.php/2020/06/15/the-university-of-benin-golden-jubilee-celebration-matters-arising/",
-        linktitle: "Read about Golden Jubilee: Matters Arising"
     },
     {
         title: "UniBEN Ugbowo Campus",
