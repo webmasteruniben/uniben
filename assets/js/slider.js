@@ -6,21 +6,14 @@ let last_slide
 var slidertimer = setInterval(TimerHandler, 8000);
 
 let projects = [
-    {
-        title: "UNIVERSITY OF BENIN MICROFINANCE BANK",
-        type: "Live Meeting",
-        content: "Join online for the UNIBEN MICROFINANCE ZOOM MEETING",
-        image: "./assets/images/slider/mfb_banner.jpg",
-        link: "https://news.uniben.edu/index.php/2021/03/03/university-of-benin-microfinance-bank/",
-        linktitle: "Click here to join"
-    },
+   
     {
         title: "INAUGURAL LECTURE",
         type: "Live Event",
-        content: "PROFESSOR OLAJIRE BOSEDE AJAYI, Professor of Optometry",
-        image: "./assets/images/slider/inaugural_236.jpg",
-        link: "https://news.uniben.edu/index.php/2021/02/23/236th-inaugural-lecture-series/",
-        linktitle: "Watch The Programme Here"
+        content: "Professor Sophia Ijeoma Akhuemokan, Professor of African Literature, Theory and Criticism",
+        image: "./assets/images/slider/inaugural_237.jpg",
+        link: "https://news.uniben.edu/index.php/2021/03/11/237th-inaugural-lecture-series/",
+        linktitle: "Read More"
     },
     {
         title: "FIRST ANNIVERSARY MEMORIAL LECTURE",
