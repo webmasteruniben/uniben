@@ -8,6 +8,14 @@ var slidertimer = setInterval(TimerHandler, 8000);
 let projects = [
    
     {
+        title: "The Biomedical Explorer",
+        type: "Research News",
+        content: "A Textbook of Biomedical Research Innovation",
+        image: "./assets/images/slider/biomed.PNG",
+        link: "https://news.uniben.edu/index.php/2021/03/30/medical-and-life-sciences-education-receives-boost/",
+        linktitle: "Read More"
+    },
+    {
         title: "INAUGURAL LECTURE",
         type: "Live Event",
         content: "Professor Sophia Ijeoma Akhuemokan, Professor of African Literature, Theory and Criticism",
