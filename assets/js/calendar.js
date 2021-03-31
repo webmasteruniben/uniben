@@ -32,45 +32,45 @@ let calendar = [
         content: "Deadline for registration and payment of school charges for 2019/2020 Academic"
     },*/
     {
-        date: "06/01/2020",
-        content: "New students come into residence for 2019/2020 Academic Session"
+        date: "Saturday 30 January, 2021",
+        content: "All old students come into halls of residence"
     },
     {
-        date: "07/01/2020",
-        content: "End of First semester lectures for 2019/2020 Academic "
+        date: "Monday 1 February, 2021",
+        content: "First Semester Lectures continue "
     },
     {
-        date: "01/06/2020 – 05/06/2020",
-        content: "Revision (one week)"
+        date: "Monday 8 March, 2021",
+        content: "Examinations begin in Faculties of Education and Pharmacy"
     },
     {
-        date: "06/06/2020",
-        content: "Examinations begin in Faculties Education/Pharmacy/Engineering/Life Sciences/Physical Sciences/Environmental Sciences"
+        date: "Saturday 13 March",
+        content: "2021-CED Examinations"
     },
     {
-        date: "10/06/2020",
-        content: "CED Examination"
+        date: "Monday 15 to Saturday 27 March, 2021",
+        content: "Other Faculty Examinations (Two weeks)"
     },
     {
-        date: "03/05/2020",
-        content: "Deadline for registration and payment of school charges for 2019/2020 Academic"
+        date: "Monday 29 to Thursday 1 April 2021",
+        content: "General Studies Examinations"
     },
     {
-        date: "11/06/2020 – 24/06/2020",
-        content: "Other Faculties Examinations begin (Two weeks)"
+        date: "Monday 5 April, 2021",
+        content: "Second Semester Lectures begin"
     },
     {
-        date: "25/06/2020 – 30/06/2020",
-        content: "General Studies Examinations (CBT)"
+        date: "Friday 28 May, 2021",
+        content: "Second Semester Lectures end Monday 31 May, 2021 - Examinations begin in Faculties of Education and Pharmacy"
     },
     {
-        date: "01/07/2020 – 14/07/2020",
-        content: "Students go down for first semester break (Two weeks break)"
+        date: "Saturday 5 June, 2021",
+        content: "CED Examinations"
     }
     ,
     {
-        date: "SECOND SEMESTER",
-        content: "2019/2020"
+        date: "Monday to Saturday 19 June, 2021",
+        content: "Other Faculty Exuminations (Two weeks)"
     }
 ]
 
