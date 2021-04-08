@@ -6,21 +6,20 @@ let last_slide
 var slidertimer = setInterval(TimerHandler, 8000);
 
 let projects = [
-   
+     {
+        title: "INAUGURAL LECTURE",
+        type: "Live Event",
+        content: " Professor John Ajokpaoghene Akpobi, Professor of Production Engineering",
+        image: "./assets/images/slider/239 banner 1.png",
+        link: "https://news.uniben.edu/index.php/2021/04/07/239th-inaugural-lecture/",
+        linktitle: "Read More"
+    },   
     {
         title: "The Biomedical Explorer",
         type: "Research News",
         content: "A Textbook of Biomedical Research Innovation",
         image: "./assets/images/slider/biomed.PNG",
         link: "https://news.uniben.edu/index.php/2021/03/30/medical-and-life-sciences-education-receives-boost/",
-        linktitle: "Read More"
-    },
-    {
-        title: "INAUGURAL LECTURE",
-        type: "Live Event",
-        content: "Professor Sophia Ijeoma Akhuemokan, Professor of African Literature, Theory and Criticism",
-        image: "./assets/images/slider/inaugural_237.jpg",
-        link: "https://news.uniben.edu/index.php/2021/03/11/237th-inaugural-lecture-series/",
         linktitle: "Read More"
     },
     {
