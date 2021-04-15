@@ -32,45 +32,54 @@ let calendar = [
         content: "Deadline for registration and payment of school charges for 2019/2020 Academic"
     },*/
     {
-        date: "Saturday 30 January, 2021",
-        content: "All old students come into halls of residence"
+        date: "18/04/2021",
+        content: "Students return to Campus to continue Second Semester Lectures"
     },
     {
-        date: "Monday 1 February, 2021",
-        content: "First Semester Lectures continue "
-    },
-    {
-        date: "Monday 8 March, 2021",
-        content: "Examinations begin in Faculties of Education and Pharmacy"
-    },
-    {
-        date: "Saturday 13 March",
-        content: "2021-CED Examinations"
-    },
-    {
-        date: "Monday 15 to Saturday 27 March, 2021",
-        content: "Other Faculty Examinations (Two weeks)"
-    },
-    {
-        date: "Monday 29 to Thursday 1 April 2021",
-        content: "General Studies Examinations"
-    },
-    {
-        date: "Monday 5 April, 2021",
+        date: "19/04/2021",
         content: "Second Semester Lectures begin"
     },
     {
-        date: "Friday 28 May, 2021",
-        content: "Second Semester Lectures end Monday 31 May, 2021 - Examinations begin in Faculties of Education and Pharmacy"
+        date: "11/06/2021",
+        content: "Second Semester Lectures end"
     },
     {
-        date: "Saturday 5 June, 2021",
+        date: "12/06/2021 - 13/06/2021",
+        content: "Revision (two days)"
+    },
+    {
+        date: "14/06/2021",
+        content: "Examinations begin in Faculties of Education and Pharmacy"
+    },
+    {
+        date: "19/06/2021",
         content: "CED Examinations"
+    },
+    {
+        date: "21/06/2021 - 03/07/2021",
+        content: "Other Faculty Examinations (two weeks)"
+    },
+    {
+        date: "5/07/2021 - 10/07/2021",
+        content: "General Studies Examinations"
+    },
+    {
+        date: "11/07/2021",
+        content: "Students go down (End of 2019/2020 Academic Session - A week and two days)"
     }
     ,
     {
-        date: "Monday to Saturday 19 June, 2021",
-        content: "Other Faculty Exuminations (Two weeks)"
+        date: "12/07/2021 - 24/07/2021",
+        content: "Schools/Faculties/Institutes/Departments/Board of Studies meet to consider 2019/2020 Sessional Results"
+    },
+    {
+        date: "26/07/2021 - 30/07/2021",
+        content: "Business Committee of Senate meet to consider results for lower levels and penultimate year for 2019/2020 Academic Session"
+    }
+    ,
+    {
+        date: "2/08/2021 - 06/08/2021",
+        content: "Senate meet to consider Sessional Results of final year for 2019/2020 Academic Session"
     }
 ]
 
