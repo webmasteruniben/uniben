@@ -7,6 +7,14 @@ var slidertimer = setInterval(TimerHandler, 8000);
 
 let projects = [
      {
+        title: "UNIBEN Online Clearance",
+        type: "Students",
+        content: "NEWLY ADMITTED STUDENTS FOR 2020/2021 (UTME AND DE) REQUIREMENTS FOR ONLINE CLEARANCE",
+        image: "./assets/images/slider/clearancenews.JPG",
+        link: "https://uniben.waeup.org/",
+        linktitle: "Read More"
+    },
+    {
         title: "INAUGURAL LECTURE",
         type: "Live Event",
         content: " Professor John Ajokpaoghene Akpobi, Professor of Production Engineering",
