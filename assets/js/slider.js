@@ -7,19 +7,19 @@ var slidertimer = setInterval(TimerHandler, 8000);
 
 let projects = [
      {
+        title: "INAUGURAL LECTURE",
+        type: "Live Event",
+        content: "Prof David Nosakhare Izekor, Professor of Wood Science and Renewable Energy Utilization",
+        image: "./assets/images/slider/240inaugural.PNG",
+        link: "https://news.uniben.edu/index.php/2021/04/17/announcing-the-240th-inaugural-lecture-series/",
+        linktitle: "Read More"
+    },
+    {
         title: "UNIBEN Online Clearance",
         type: "Students",
         content: "NEWLY ADMITTED STUDENTS FOR 2020/2021 (UTME AND DE) REQUIREMENTS FOR ONLINE CLEARANCE",
         image: "./assets/images/slider/clearancenews.JPG",
         link: "https://uniben.waeup.org/",
-        linktitle: "Read More"
-    },
-    {
-        title: "INAUGURAL LECTURE",
-        type: "Live Event",
-        content: " Professor John Ajokpaoghene Akpobi, Professor of Production Engineering",
-        image: "./assets/images/slider/239 banner 1.png",
-        link: "https://news.uniben.edu/index.php/2021/04/07/239th-inaugural-lecture/",
         linktitle: "Read More"
     },   
     {
