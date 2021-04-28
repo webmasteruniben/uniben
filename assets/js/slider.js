@@ -9,9 +9,9 @@ let projects = [
      {
         title: "INAUGURAL LECTURE",
         type: "Live Event",
-        content: "Prof David Nosakhare Izekor, Professor of Wood Science and Renewable Energy Utilization",
-        image: "./assets/images/slider/240inaugural.PNG",
-        link: "https://news.uniben.edu/index.php/2021/04/17/announcing-the-240th-inaugural-lecture-series/",
+        content: "Prof Birch Dauda Okolo Saheed, Professor of Oral and Maxilofacial Surgery",
+        image: "./assets/images/slider/241Inaugural.PNG",
+        link: "https://news.uniben.edu/index.php/2021/04/28/announcing-the-240th-inaugural-lecture-series-2/",
         linktitle: "Read More"
     },
     {
