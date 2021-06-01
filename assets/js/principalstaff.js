@@ -42,6 +42,14 @@ let principalstaff = [
         image: "./assets/img/staff/prof ogene.jpg",
         alt: "PROF. JOHN OGENE (Ph.D.) FSNA, FIPMD, JP",
         href: "profjohnogene.html"
+    },
+    {
+        title: "ADEMOLA ABIMBOLA BOBOLA",
+        type: "Registrar, University of Benin, Nigeria",
+        content: "Mr. AdemolaA. Bobola hails from Ondo State of Nigeria. He had his early education in Akure,Ondo State capital. Specifical. .",
+        image: "./assets/img/staff/Bobolola.jpg",
+        alt: "ADEMOLA ABIMBOLA BOBOLA",
+        href: "bobolola.html"
     }
 ]
 
