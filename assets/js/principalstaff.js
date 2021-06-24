@@ -49,7 +49,7 @@ let principalstaff = [
         content: "Mr. AdemolaA. Bobola hails from Ondo State of Nigeria. He had his early education in Akure,Ondo State capital. Specifical. .",
         image: "./assets/img/staff/Bobolola.jpg",
         alt: "ADEMOLA ABIMBOLA BOBOLA",
-        href: "bobolola.html"
+        href: "bobola.html"
     }
 ]
 

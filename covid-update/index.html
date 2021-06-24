@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/img/logo.png" type="image" sizes="16x16">
+    <title>Uniben | Covid-19</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/tss.css">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="assets/js/tableManager.js"></script>
+</head>
+<style>
+    .container1 {
+        background: url(assets/img/banner.png) 0 0 no-repeat;
+        background-size: cover;
+        height: 600px;
+        padding-top: 9%;
+        padding-left: 2%;
+    }
+    /* @media screen and (max-width: 900px) {
+        .container1 {
+            margin-bottom: 10px;
+        }
+    }*/
+    
+    .overlay1 {
+        background-color: #C6C1C5;
+        border-radius: 20px;
+        max-width: 410px;
+        /* position: absolute;*/
+        left: 2;
+        margin-left: 2%;
+        padding: 1%;
+    }
+    /*.cov {
+        position: absolute;
+        top: 52%;
+        left: 66%;
+    }*/
+    
+    .container2 {
+        height: 50%;
+        background-color: #fff;
+        border-radius: 50px;
+        margin-top: -7%;
+        padding: 5px 3px 5px 3px;
+        box-shadow: 10px 10px 30px #2a2e33;
+    }
+    
+    .container6 {
+        height: 50%;
+        background-color: #fff;
+        margin-bottom: 70px;
+        padding: 5px 3px 5px 3px;
+    }
+    
+    .containertable {
+        padding: 2%;
+    }
+</style>
+
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <img src="assets/img/logo.png" alt="Uniben Logo" style="height: 8%; width: 8%; border-radius: 20%; margin-right: 2%;">
+            <a class="navbar-brand" href="#" style="color: #9C0C84;">
+                <h2>Covid-19</h2>
+            </a>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://uniben.edu/" style="color: #9C0C84;">
+                            <h5>Home</h5>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.uniben.edu/about.html" style="color: #9C0C84;">
+                            <h5>About</h5>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.uniben.edu/academics.html" style="color: #9C0C84;">
+                            <h5>academics</h5>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.uniben.edu/admissions.html" style="color: #9C0C84;">
+                            <h5>Admissions</h5>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.uniben.edu/research.html" style="color: #9C0C84;">
+                            <h5>Research</h5>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://news.uniben.edu/" style="color: #9C0C84;">
+                            <h5>News</h5>
+                        </a>
+                    </li>
+
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="" style="background-color: #FFFFFF;">
+        <div class="" style="position: relative;">
+
+            <div class="">
+                <marquee id="marq">Covid-19 cases around the world. </marquee>
+            </div>
+            <!--slider-->
+
+
+
+
+            <div class="container-fluid container1">
+                <!--<img src="assets/img/banner.png" class="img-fluid col-12" alt="..." class="full w-100">-->
+                <div class="container-fluid overlay1">
+                    <h4 style="color: rgb(0, 0, 0);">Cases in Nigeria as at today <span id="date01"></span> are:</br>
+                        <p class="covidata"></p>
+                        <a class="read_more" href="#"><button type="button" class="btn btn-info">Read More</button>
+                    </a>
+                </div>
+
+            </div>
+            <!--end of slider-->
+
+            <!--container2-->
+            <div class="container-fluid  col-11 container2">
+                <div class="container-fluid row" style="display: flex;">
+                    <div class="container-fluid col-md-6" style="margin: 20px 2px 20px 20px;">
+                        <div class="" style="color: #50454e; border-radius: 20px; overflow: hidden;">
+                            <h2 style=" height: auto; text-align: center; padding: 15px;">UNIBEN COVID-19 SURVEILLANCE CLUB</h2>
+
+                            <p style="margin: 15px; text-align: left;">The Management of the University of Benin (UNIBEN) has urged interested staff and students to serve as volunteers in the newly formed UNIBEN COVID-19 Surveillance Club.<br>With the reported upsurge in Coronavirus (COVID- 19)
+                                cases in parts of the country, management of the University of Benin has put in place measures to forestall outbreak of the disease and ensure safety of all as students return to campus, in line with Federal Government
+                                directives.
+                                <br> “To that effect, interested staff and students are being invited to serve as volunteers in the surveillance club. <br>“The core mandate of the club will be to monitor compliance with the university’s regulations on
+                                the COVID-19 non-medical protocols. “Interested staff and students are to send their names, departments and positions to the Vice Chancellor’s office. </p>
+
+                        </div>
+                    </div>
+                    <div class="container-fluid col-md-5"> <img src="assets/img/about.png" class="img-fluid" alt=""></div>
+
+
+                </div>
+            </div>
+        </div>
+        <!--end of container2-->
+
+        <!---->
+        <div class="container-fluid  col-11 container3" style="background-color: #FFFFFF; margin: 2%; padding: 40px 40px 0 40px;">
+            <div class="container-fluid row" style="display: flex;">
+                <div class="container-fluid col-md-6">
+                    <img src="assets/img/corona.png" alt="" class="img-fluid">
+                </div>
+                <div class="container-fluid col-md-5">
+                    <h1 style="color: #b93ca4; text-align: center;"><b>Covid-19<br> What is it?</b></h1>
+                    <p>COVID-19 is the disease caused by a new coronavirus called SARS-CoV-2. WHO first learned of this new virus on 31 December 2019, following a report of a cluster of cases of 'viral pneumonia' in Wuhan, People's Republic of China.</p>
+                    <br>
+                    <br>
+                    <br>
+                    <footer><i>
+                        Source: <a href="https://www.who.int/news-room/q-a-detail/coronavirus-disease-covid-19#" target="blank"> Whorld Health Organization</a> 
+                    </i></footer>
+                </div>
+
+
+
+            </div>
+        </div>
+        <!--tabular info of covid-->
+        <div class="container-fluid col-11 containertable">
+            <div class="table-responsive" style="box-shadow: 10px 10px 20px #2a2e33; padding: 2%;">
+                <div class="" style="text-align: center;">
+                    <h2 style="color: rgb(0, 0, 0);">Covid-19 Cases in Nigeria as at today,</br>
+                    </h2>
+                    <p id="date02">.</p>
+                    <p class="covidata"></p>
+                </div>
+                <table class="tablemanager">
+                    <thead>
+                        <tr>
+                            <th>States</th>
+                            <th class="disableFilterBy disableSort">Confirmed Cases</th>
+                            <th class="disableFilterBy disableSort">Cases On Admission</th>
+                            <th class="disableFilterBy disableSort">Discharged Cases</th>
+                            <th class="disableFilterBy disableSort">Death Cases</th>
+
+                        </tr>
+                    </thead>
+                    <tbody id="body">
+
+
+                    </tbody>
+
+                </table>
+                <footer><i>
+                    Source: <a href="https://covid19.ncdc.gov.ng/" target="blank"> Nigeria Centre For Disease Control</a> 
+                </i></footer>
+            </div>
+            <!--end of tabular-->
+            <div class="container-fluid  col-12 container3" style="background-color: #FFFFFF; margin: auto; padding: 40px 40px 40px 40px; margin-top: 40px; margin-bottom: 20px;">
+
+                <div class="container-fluid row" style="text-align: center;">
+                    <h2 style="margin-bottom: 30px;">HOW TO PROTECT YOURSELF</h2>
+                    <div class="container-fluid col-md-4" style="margin-bottom: 100px;">
+                        <img src="assets/img/pro1.png" alt="" class="img-fluid" style="height: 40%; margin: 10px 10px;">
+                        <h3>Wear Your Nose Mask</h3>
+                        <p>Wash your hands before and after touching the mask. Touch only the bands or ties when putting on and taking off your mask. Make sure the mask fits to cover your nose, mouth and chin. Make sure you can breathe and talk comfortably
+                            through your mask. Wash reusable masks after each use.</p>
+                    </div>
+                    <div class="container-fluid col-md-4" style="margin-bottom: 100px;">
+                        <img src="assets/img/pro2.png" alt="" class="img-fluid" style="height: 40%; margin: 10px 10px;">
+                        <h3>Wash Your Hands Regularly</h3>
+                        <p>Wet your hands with clean preferably running water. Apply enough soap to cover all surfaces of your hands and wrists. Lather and rub your hands together briskly and thoroughly. Make sure to scrub all surfaces of your hands, fingertips,
+                            fingernails, and wrists. Scrub your hands and wrists for at least 20 seconds. Rinse your hands and wrists under clean preferably running water. Dry your hands and wrists with a clean towel, or let them air-dry.</p>
+                    </div>
+                    <div class="container-fluid col-md-4" style="margin-bottom: 100px">
+                        <img src="assets/img/pro6.png" alt="" class="img-fluid" style="height: 40%; margin: 10px 10px;">
+                        <h3>Maintain Social Distance</h3>
+                        <p>Social distancing, also called “physical distancing,” means keeping a safe space between yourself and other people who are not from your household. To practice social or physical distancing, stay at least 6 feet (about 2 arm lengths)
+                            from other people who are not from your household in both indoor and outdoor spaces.<br> Social distancing should be practiced in combination with other everyday preventive actions to reduce the spread of COVID-19.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--end of care-->
+
+        <!--container2-->
+        <div class="container-fluid  col-11 container6">
+            <div class="container-fluid row" style="display: flex;">
+
+                <div class="container-fluid col-md-5"> <img src="assets/img/unibencovid (3).jpg" class="img-fluid" alt=""></div>
+
+                <div class="container-fluid col-md-6" style="margin: 20px">
+                    <div class="" style="color: #50454e; overflow: hidden;">
+                        <h2 style=" height: auto; text-align: left; padding: 15px;">UNIBEN COVID-19 SURVEILLANCE CLUB</h2>
+
+                        <p style="margin: 15px; text-align: left;">Uniben Surveillance Club (USC) is a voluntary club set up 2021 following the resumption of tertiary institutions after the Covid-19 lock down and the protracted ASUU strike at the instance of Uniben Management ably lead by our
+                            indefatigable VC, Prof Salami. The mandate of the club is to ensure the compliance with the non pharmaceutical covid-19 protocol for the smooth running of the academic school calendar. The composition of the club; The chief
+                            Marshal, Marshals and the members. The Chief Marshal is one, Sixteen Marshals and 160 members drawn from all departments/unitsbof the University. We have 3 Surveillance Vehicles with drivers attached to assist in the work.
+                        </p>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <!--end of container2-->
+
+
+    <footer>
+        <div class="container-fluid  col-12" style="background: #2a2e33; color: #fff; padding: 20px">
+            <div class="container-fluid row">
+                <div class="container-fluid col-md-6">
+                    <p>Copyright &copy 2021, University of Benin.</p>
+                </div>
+                <div class="container-fluid col-md-6" style="text-align: right;">
+                    <p>Designed by University of Benin, Web Unit, ICTU.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+<script>
+    fetch("https://api.covid19api.com/summary")
+        //fetch("worldcovid.json")
+        .then((res) => res.json())
+        .then((data1) => {
+            var Country, NewConfirmed, TotalConfirmed, NewDeaths, TotalDeaths, NewRecovered, TotalRecovered;
+            var GNewConfirmed, GTotalConfirmed, GNewDeaths, GTotalDeaths, GNewRecovered, GTotalRecovered;
+            $.each(data1.Countries, function() {
+                Country = this['Country'];
+                NewConfirmed = this['NewConfirmed'];
+                TotalConfirmed = this['TotalConfirmed'];
+                TotalDeaths = this['TotalDeaths'];
+                NewRecovered = this['NewRecovered'];
+                TotalRecovered = this['TotalRecovered'];
+                NewDeaths = this['NewDeaths'];
+
+                $("#marq").append(`
+
+                <span style="font-weight: bolder; font-size: 20px;">${Country}</span>:
+                        Total confirmed cases: <span style="color: #0492C2;">${TotalConfirmed} </span>,
+                        New confirmed cases: <span style="color: #FF8C00;">${NewConfirmed}</span>,
+                        Total recovered:  <span id="discharged" style="color: #138750;">${TotalRecovered}</span>,
+                        New recovered:  <span id="discharged" style="color: #138750;">${NewRecovered}</span>,
+                        Total death: <span id="death" style="color: #FF0000;">${TotalDeaths}</span>, 
+                        New death: <span id="death" style="color: #FF0000;">${NewDeaths}</span>. ||
+                        
+                       
+    
+                   `);
+            })
+            console.log(data1);
+        })
+
+
+
+    var d1 = new Date();
+    document.getElementById("date01").innerHTML = d1.toDateString();
+    document.getElementById("date02").innerHTML = d1.toDateString();
+
+    fetch("https://covidnigeria.herokuapp.com/api?states")
+        //fetch("covid.json")
+        .then((res) => res.json())
+        .then((data) => {
+            var active;
+            var confirmed;
+            var discharged;
+            var death;
+            var samples;
+            // var data;
+
+            var state, confirmedCases, casesOnAdmission, discharged1, death1, samples;
+            console.log(data);
+
+            $.each(data, function() {
+
+                confirmed = this['totalConfirmedCases'];
+                active = this['totalActiveCases'];
+                discharged = this['discharged'];
+
+                death = this['death'];
+                samples = this['totalSamplesTested'];
+
+                $(".covidata").append(`
+
+                Total confirmed cases <span id="confirmed" style="color: #0492C2;">${confirmed}</span>,
+                        Total active cases <span id="active" style="color: #FF8C00;">${active}</span>,
+                        Total discharged cases <span id="discharged" style="color: #138750;">${discharged}</span>,
+                        total death <span id="death" style="color: #FF0000;">${death}</span>, </br>
+                        and the total samples tested are <span id="samples" style="color: #615e44;">${samples}</span>
+                       
+    
+                   `);
+            });
+            $.each(data.data.states, function() {
+                state = this['state'];
+                confirmedCases = this['confirmedCases'];
+                casesOnAdmission = this['casesOnAdmission'];
+                discharged1 = this['discharged'];
+
+                death1 = this['death'];
+
+
+                $("#body").append(`
+                        <tr>
+                                            <td> ${state}</td>
+                                            <td style="color: #0492C2;">${confirmedCases}</td>
+                                            <td style="color: #FF8C00;">${casesOnAdmission}</td>
+                                            <td style="color: #138750;">${discharged1}</td>
+                                            <td style="color: #FF0000;">${death1}</td>
+                                            
+                                       </tr>
+    
+                   `);
+
+            });
+            $(".tablemanager").tablemanager({
+                /* firstSort: [
+                     [3, 0],
+                     [2, 0],
+                     [1, "asc"],
+                 ],*/
+                disable: ["last"],
+                appendFilterby: true,
+                dateFormat: [
+                    [4, "dd-mm-yyyy"]
+                ],
+                debug: true,
+                vocabulary: {
+                    voc_filter_by: 'Search by',
+                    voc_type_here_filter: 'Filter...',
+                    voc_show_rows: 'Rows per page'
+                },
+                pagination: true,
+                showrows: [10, 15, 20, 37],
+                //disableFilterBy: [1]
+
+            })
+        })
+</script>
+
+
+
+
+</html>

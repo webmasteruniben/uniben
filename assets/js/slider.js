@@ -7,11 +7,11 @@ var slidertimer = setInterval(TimerHandler, 8000);
 
 let projects = [
      {
-        title: "INAUGURAL LECTURE",
-        type: "Live Event",
-        content: "Prof Birch Dauda Okolo Saheed, Professor of Oral and Maxilofacial Surgery",
-        image: "./assets/images/slider/241Inaugural.PNG",
-        link: "https://news.uniben.edu/index.php/2021/04/28/announcing-the-240th-inaugural-lecture-series-2/",
+        title: "ADMISSION INTO PART-TIME DEGREE PROGRAMMES",
+        type: "Admission",
+        content: "ADMISSION INTO PART-TIME DEGREE PROGRAMMES OF THE UNIVERSITY OF BENIN 2020/2021 SESSION",
+        image: "./assets/images/slider/parttime2021.png",
+        link: "https://news.uniben.edu/index.php/2021/06/23/admission-into-part-time-degree-programmes-of-the-university-of-benin-2020-2021-session/",
         linktitle: "Read More"
     },
     {
