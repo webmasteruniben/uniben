@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #F3F3F3;
+    font-family: 'Roboto', 'Helvetica', sans-serif;
+}
+
+.page {
+    /*width: 100vw;*/
+    height: auto;
+
+    display: flex;
+    flex-flow: column;
+}
+
+/* .header {
+    width: 100%;
+    height: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #171717;
+}
+
+.header__title {
+    color: #FFCE00;
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.header>span {
+    font-weight: 300;
+} */
+/* 
+main {
+    flex: 1;
+    overflow: scroll;
+} */
+
+.slider {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 500px;
+}
+
+.slider__slide {
+    position: absolute;
+    transform: translateY(-100%);
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    opacity: 0;
+    transition: transform 0.5s ease-in-out, opacity 0.5s linear;
+    background-position: center center;
+    background-size: cover;
+}
+
+.slider__content {
+    position: absolute;
+    width: 100%;
+    max-width: 600px;
+    top: 0px;
+    padding: 15px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.4);
+    color: #F3F3F3;
+}
+
+.slider__title>span {
+    display: block;
+    font-weight: 300;
+}
+
+.active {
+    opacity: 1;
+    transform: translateY(0%);
+}
+
+.slider__btns {
+    position: absolute;
+    z-index: 999;
+    top: 50%;
+    transform: translateY(-50%);
+
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider__btn {
+    width: 35px;
+    height: 35px;
+    color: #FFCE00;
+    font-size: 20px;
+    line-height: 35px;
+    font-weight: 300;
+    text-align: center;
+    border-radius: 50%;
+    background: none;
+    border: 1px solid #FFCE00;
+
+    cursor: pointer;
+    transition: background 0.2s linear, color 0.2s ease-out;
+
+
+}
+
+.slider__btn:hover {
+    background: #FFCE00;
+    color: #171717;
+}
+
+@media screen and (min-width: 600px) {
+    .slider__content {
+        border-radius: 0px 0px 50px 0px;
+    }
+
+   
+}
+
+@media screen and (max-width: 600px) {
+    .slider {
+       
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .slider {
+       
+        height: 200px;
+    }
+}
