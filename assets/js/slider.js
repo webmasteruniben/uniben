@@ -7,11 +7,11 @@ var slidertimer = setInterval(TimerHandler, 8000);
 
 let projects = [
      {
-        title: "247 Inaugural Lecture",
+        title: "250 Inaugural Lecture",
         type: "Inaugural Lectures",
-        content: "The Vice-Chancellor, Prof Lilian Imuetinyan Salami on behalf of the University Senate invites all Staff, Students and the general public to the 247th  Inaugural Lecture Series of the University of Benin",
-        image: "./assets/images/slider/inaugural247.png",
-        link: "https://news.uniben.edu/index.php/2021/06/24/invitation-to-the-247th-inaugural-lecture/",
+        content: "The Vice-Chancellor, Prof Lilian Imuetinyan Salami on behalf of the University Senate invites all Staff, Students and the general public to the 250th  Inaugural Lecture Series of the University of Benin",
+        image: "./assets/images/slider/250th inaug2.png",
+        link: "https://news.uniben.edu/index.php/2021/07/29/invitation-to-the-249th-inaugural-lecture-series-2/",
         linktitle: "Read More"
     },
     {
