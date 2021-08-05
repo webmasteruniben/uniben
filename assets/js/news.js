@@ -13,22 +13,13 @@ let news = [
         linktitle: "Click Here to Watch"
     },
     {
-        title: "Post-UDE Admission Screening 2020/2021",
+        title: "RESUMPTION OF UNIBEN SANDWICH PROGRAMME FOR 2019/2021",
         type: "NEWS",
-        content: "Application for the  University  of  Benin  (UNIBEN) Post-UDE Admission  Screening  Exercise for  2020/2021 Academic Session will take place between 13rd November, 2020 and 30th  November,  2020.",
-        image: "./assets/img/news/post_de.JPG",
-        alt: "Post-UDE ADMISSION SCREENING EXERCISE",
-        link: "https://uniben.waeup.org/applicants/pude2020/index",
-        linktitle: "Click Here to Apply"
-    },
-    {
-        title: "EXAM SCHEDULE FOR 2020/2021 ADMISSION SCREENING EXERCISE",
-        type: "NEWS",
-        content: "Applicants for the Admission  Screening  Exercise  (Post  UTME)  for  2020/2021 Academic Session should login to their portal and confirm the date and time for their examinations.",
+        content: "The University of Benin has resumed the Sandwich Programme for the 2019/2020 contact. A schedule released by the Faculty of Education lists the date for students' registration and documentation as 2nd August, 2021",
         image: "./assets/img/news/matric.JPG",
-        alt: "ADMISSION SCREENING EXERCISE",
-        link: "https://uniben.waeup.org/applicants/ase2020/index",
-        linktitle: "Click Here to Apply"
+        alt: "RESUMPTION OF UNIBEN SANDWICH PROGRAMME",
+        link: "http://myuniben.org/",
+        linktitle: "Visit Portal"
     },
     {
         title: "UNIBEN AT 50: FOUNDERS DAY",
