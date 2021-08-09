@@ -32,20 +32,13 @@ let calendar = [
         content: "Deadline for registration and payment of school charges for 2019/2020 Academic"
     },*/
     {
-        date: "02/08/2021 – 04/08/2021",
+        date: "10/08/2021",
+        content: "Virtual Matriculation Exercise for fresh Students"
+        
+    },
+    {
+        date: "12/08/2021",
         content: "Virtual Orientation for fresh Students"
-    },
-    {
-        date: "06/08/2021",
-        content: "Matriculation Exercise for fresh Students"
-    },
-    {
-        date: "08/08/2021",
-        content: "Fresh Students come into Halls of Residence"
-    },
-    {
-        date: "09/08/2021",
-        content: "Online clearance/registration for fresh students"
     },
     {
         date: "15/08/2021",
