@@ -4,6 +4,15 @@ const section = document.querySelector('.section-list')
 
 let news = [
     {
+        title: "UNIBEN 2020/2021 VIRTUAL MATRICULATION",
+        type: "NEWS",
+        content: "Watch the proceedings of the 2020/2021 Matriculation Event live here. August 10 2021, 10.30 a.m.",
+        image: "./assets/img/news/matric_2021_news.jpg",
+        alt: "UNIBEN 2020/2021 VIRTUAL MATRICULATION",
+        link: "https://news.uniben.edu/index.php/2021/08/08/watch-live-proceedings-of-the-2021-matriculation-ceremony/",
+        linktitle: "Click Here to Watch"
+    },
+    {
         title: "FIRST ANNIVERSARY MEMORIAL LECTURE",
         type: "NEWS",
         content: "FIRST ANNIVERSARY MEMORIAL LECTURE IN HONOUR OF CHIEF (PROF.) EMMANUEL U. EMOVON CON FAS KSP JP. Time: Feb 18, 2021 11:00 AM West Central Africa.",

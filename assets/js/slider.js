@@ -7,6 +7,14 @@ var slidertimer = setInterval(TimerHandler, 8000);
 
 let projects = [
      {
+        title: "2020/2021 VIRTUAL MATRICULATION CEREMONY",
+        type: "Matriculation Ceremony",
+        content: "Watch the Matriculation ceremony for 2020/2021.",
+        image: "./assets/images/slider/matric2020_2021.jpg",
+        link: "https://news.uniben.edu/index.php/2021/08/08/watch-live-proceedings-of-the-2021-matriculation-ceremony/",
+        linktitle: "Click Here to Watch"
+    },
+    {
         title: "250 Inaugural Lecture",
         type: "Inaugural Lectures",
         content: "The Vice-Chancellor, Prof Lilian Imuetinyan Salami on behalf of the University Senate invites all Staff, Students and the general public to the 250th  Inaugural Lecture Series of the University of Benin",
@@ -53,14 +61,6 @@ let projects = [
         image: "./assets/images/slider/uniben_welcome.JPG",
         link: "#",
         linktitle: "Click Here to Read More"
-    },
-    {
-        title: "2019/2020 VIRTUAL MATRICULATION CEREMONY",
-        type: "Matriculation Ceremony",
-        content: "Watch the Matriculation ceremony for 2019/2020.",
-        image: "./assets/images/slider/uniben_matric_virtual.JPG",
-        link: "https://news.uniben.edu/index.php/2020/09/12/watch-live2019-2020-virtual-matriculation-ceremony/",
-        linktitle: "Click Here to Watch"
     },
     {
         title: "Ugbowo Campus Main Gate",
