@@ -6,21 +6,21 @@ let last_slide
 var slidertimer = setInterval(TimerHandler, 8000);
 
 let projects = [
-     {
+    {
+        title: "251st Inaugural Lecture",
+        type: "Inaugural Lectures",
+        content: "The Vice-Chancellor, Prof Lilian Imuetinyan Salami on behalf of the University Senate invites all Staff, Students and the general public to the 251st  Inaugural Lecture Series of the University of Benin",
+        image: "./assets/images/slider/251st inaugb.PNG",
+        link: "https://news.uniben.edu/index.php/2021/08/12/live-event-251st-inaugural-lecture/",
+        linktitle: "Read More"
+    },
+    {
         title: "2020/2021 VIRTUAL MATRICULATION CEREMONY",
         type: "Matriculation Ceremony",
         content: "Watch the Matriculation ceremony for 2020/2021.",
         image: "./assets/images/slider/matric2020_2021.jpg",
         link: "https://news.uniben.edu/index.php/2021/08/08/watch-live-proceedings-of-the-2021-matriculation-ceremony/",
         linktitle: "Click Here to Watch"
-    },
-    {
-        title: "250 Inaugural Lecture",
-        type: "Inaugural Lectures",
-        content: "The Vice-Chancellor, Prof Lilian Imuetinyan Salami on behalf of the University Senate invites all Staff, Students and the general public to the 250th  Inaugural Lecture Series of the University of Benin",
-        image: "./assets/images/slider/250th inaug2.png",
-        link: "https://news.uniben.edu/index.php/2021/07/29/invitation-to-the-249th-inaugural-lecture-series-2/",
-        linktitle: "Read More"
     },
     {
         title: "ADMISSION INTO PART-TIME DEGREE PROGRAMMES",
